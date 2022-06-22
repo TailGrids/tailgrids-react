@@ -6,6 +6,11 @@ import Blogs from "./Component/Blogs";
 import Brand from "./Component/Brand";
 import Error404 from "./Component/Error404";
 import Breadcrumbs from "./Component/Breadcrumbs";
+import ButtonGroup from "./Component/ButtonGroup";
+import Buttons from "./Component/Buttons";
+import Card from "./Component/Card";
+import Contact from "./Component/Contact";
+import Cookies from "./Component/Cookies";
 
 function App() {
   return (
@@ -16,7 +21,12 @@ function App() {
       {/* <Badges /> */}
       {/* <Blogs /> */}
       {/* <Brand /> */}
-      <Breadcrumbs />
+      {/* <Breadcrumbs /> */}
+      {/* <ButtonGroup /> */}
+      {/* <Buttons /> */}
+      {/* <Card /> */}
+      {/* <Contact /> */}
+      {/* <Cookies /> */}
     </>
   );
 }
