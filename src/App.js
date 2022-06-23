@@ -26,6 +26,9 @@ import Team from "./Component/Team";
 import Tooltips from "./Component/Tooltips";
 import FormElements from "./Component/FormElements";
 import Forms from "./Component/Forms";
+import Dropdown from "./Component/Dropdown";
+import FAQ from "./Component/FAQ";
+import Navbar from "./Component/Navbar";
 
 function App() {
   return (
@@ -57,6 +60,9 @@ function App() {
       {/* <Tooltips /> */}
       {/* <FormElements /> */}
       {/* <Forms /> */}
+      {/* <Dropdown /> */}
+      {/* <FAQ /> */}
+      {/* <Navbar /> */}
     </>
   );
 }
