@@ -6,14 +6,7 @@ const Navbar = () => {
   return (
     <>
       {/* <!-- ====== Navbar Section Start --> */}
-      <header
-        x-data="
-        {
-          navbarOpen: false
-        }
-      "
-        className="flex items-center w-full bg-white"
-      >
+      <header className="flex items-center w-full bg-white">
         <div className="container">
           <div className="relative flex items-center justify-between -mx-4">
             <div className="max-w-full px-4 w-60">

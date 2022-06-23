@@ -29,6 +29,9 @@ import Forms from "./Component/Forms";
 import Dropdown from "./Component/Dropdown";
 import FAQ from "./Component/FAQ";
 import Navbar from "./Component/Navbar";
+import Hero from "./Component/Hero";
+import Portfolio from "./Component/Portfolio";
+import Tabs from "./Component/Tabs";
 
 function App() {
   return (
@@ -63,6 +66,9 @@ function App() {
       {/* <Dropdown /> */}
       {/* <FAQ /> */}
       {/* <Navbar /> */}
+      {/* <Hero /> */}
+      {/* <Portfolio /> */}
+      {/* <Tabs /> */}
     </>
   );
 }
