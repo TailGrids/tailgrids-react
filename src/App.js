@@ -32,6 +32,8 @@ import Navbar from "./Component/Navbar";
 import Hero from "./Component/Hero";
 import Portfolio from "./Component/Portfolio";
 import Tabs from "./Component/Tabs";
+import Video from "./Component/Video";
+import Modal from "./Component/Modal";
 
 function App() {
   return (
@@ -69,6 +71,13 @@ function App() {
       {/* <Hero /> */}
       {/* <Portfolio /> */}
       {/* <Tabs /> */}
+      {/* 
+      // 
+      // 
+      // 
+      */}
+      <Video />
+      {/* <Modal /> */}
     </>
   );
 }
