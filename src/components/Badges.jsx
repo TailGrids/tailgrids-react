@@ -5,61 +5,61 @@ const Badges = () => {
     <>
       <section className="bg-white py-20 lg:py-[120px]">
         <div className="container">
-          <div className="-mx-2 mb-8 flex flex-wrap items-center">
-            <span className="m-2 inline-block rounded-full bg-primary py-1 px-3 text-sm font-semibold text-white">
+          <div className="flex flex-wrap items-center mb-8 -mx-2">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold text-white rounded-full bg-primary">
               Primary
             </span>
-            <span className="m-2 inline-block rounded-full bg-secondary py-1 px-3 text-sm font-semibold text-white">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold text-white rounded-full bg-secondary">
               Secondary
             </span>
-            <span className="m-2 inline-block rounded-full bg-black py-1 px-3 text-sm font-semibold text-white">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold text-white bg-black rounded-full">
               Dark
             </span>
-            <span className="m-2 inline-block rounded-full bg-body-color py-1 px-3 text-sm font-semibold text-white">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold text-white rounded-full bg-body-color">
               Gray
             </span>
-            <span className="m-2 inline-block rounded-full bg-light py-1 px-3 text-sm font-semibold text-black">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold text-black rounded-full bg-light">
               Light
             </span>
-            <span className="m-2 inline-block rounded-full bg-warning py-1 px-3 text-sm font-semibold text-black">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold text-black rounded-full bg-warning">
               Warning
             </span>
-            <span className="m-2 inline-block rounded-full bg-danger py-1 px-3 text-sm font-semibold text-white">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold text-white rounded-full bg-danger">
               Danger
             </span>
-            <span className="m-2 inline-block rounded-full bg-success py-1 px-3 text-sm font-semibold text-white">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold text-white rounded-full bg-success">
               Success
             </span>
-            <span className="m-2 inline-block rounded-full bg-info py-1 px-3 text-sm font-semibold text-white">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold text-white rounded-full bg-info">
               Info
             </span>
           </div>
-          <div className="-mx-2 mb-8 flex flex-wrap items-center">
-            <span className="m-2 inline-block rounded-full border border-primary py-1 px-3 text-sm font-semibold text-primary">
+          <div className="flex flex-wrap items-center mb-8 -mx-2">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold border rounded-full border-primary text-primary">
               Primary
             </span>
-            <span className="m-2 inline-block rounded-full border border-secondary py-1 px-3 text-sm font-semibold text-secondary">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold border rounded-full border-secondary text-secondary">
               Secondary
             </span>
-            <span className="m-2 inline-block rounded-full border border-black py-1 px-3 text-sm font-semibold text-black">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold text-black border border-black rounded-full">
               Dark
             </span>
-            <span className="m-2 inline-block rounded-full border border-body-color py-1 px-3 text-sm font-semibold text-body-color">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold border rounded-full border-body-color text-body-color">
               Gray
             </span>
-            <span className="m-2 inline-block rounded-full border border-light py-1 px-3 text-sm font-semibold text-black">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold text-black border rounded-full border-light">
               Light
             </span>
-            <span className="m-2 inline-block rounded-full border border-warning py-1 px-3 text-sm font-semibold text-warning">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold border rounded-full border-warning text-warning">
               Warning
             </span>
-            <span className="m-2 inline-block rounded-full border border-danger py-1 px-3 text-sm font-semibold text-danger">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold border rounded-full border-danger text-danger">
               Danger
             </span>
-            <span className="m-2 inline-block rounded-full border border-success py-1 px-3 text-sm font-semibold text-success">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold border rounded-full border-success text-success">
               Success
             </span>
-            <span className="m-2 inline-block rounded-full border border-info py-1 px-3 text-sm font-semibold text-info">
+            <span className="inline-block px-3 py-1 m-2 text-sm font-semibold border rounded-full border-info text-info">
               Info
             </span>
           </div>

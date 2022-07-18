@@ -1,6 +1,6 @@
 import React from "react";
 // import Button from "./components/Buttons1";
-import Preview from "./components/Alerts1/Preview";
+import Preview from "./components/Badges1/Preview";
 import About from "./components/About";
 import Alerts from "./components/Alerts";
 import Badges from "./components/Badges";
@@ -41,8 +41,7 @@ function App() {
   return (
     <>
       {/* <Error404 /> */}
-      {/* <Preview /> */}
-      <Badges />
+      <Preview />
       {/* <Blogs /> */}
       {/* <Brand /> */}
       {/* <Breadcrumbs /> */}
