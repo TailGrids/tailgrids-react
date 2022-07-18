@@ -1,10 +1,7 @@
 import React from "react";
 // import Button from "./components/Buttons1";
-import Preview from "./components/Badges1/Preview";
 import About from "./components/About";
 import Alerts from "./components/Alerts";
-import Badges from "./components/Badges";
-import Blogs from "./components/Blogs";
 import Brand from "./components/Brand";
 import Error404 from "./components/Error404";
 import Breadcrumbs from "./components/Breadcrumbs";
@@ -36,6 +33,7 @@ import Portfolio from "./components/Portfolio";
 import Tabs from "./components/Tabs";
 import Video from "./components/Video";
 import Modal from "./components/Modal";
+import Preview from "./components/Blog1/Preview";
 
 function App() {
   return (
