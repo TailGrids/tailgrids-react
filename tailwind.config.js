@@ -7,7 +7,12 @@ module.exports = {
     "./assets/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        success: "#34D399",
+        error: "#B45454",
+      },
+    },
   },
   plugins: [require("tailgrids/plugin")],
 };

@@ -5,9 +5,9 @@ const About = () => {
     <>
       <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
         <div className="container">
-          <div className="-mx-4 flex flex-wrap items-center justify-between">
+          <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
-              <div className="-mx-3 flex items-center sm:-mx-4">
+              <div className="flex items-center -mx-3 sm:-mx-4">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <img
@@ -607,7 +607,7 @@ const About = () => {
             </div>
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
-                <span className="mb-2 block text-lg font-semibold text-primary">
+                <span className="block mb-2 text-lg font-semibold text-primary">
                   Why Choose Us
                 </span>
                 <h2 className="mb-8 text-3xl font-bold text-dark sm:text-4xl">
@@ -625,7 +625,7 @@ const About = () => {
                 </p>
                 <a
                   href="/#"
-                  className="inline-flex items-center justify-center rounded-lg bg-primary py-4 px-10 text-center text-base font-normal text-white hover:bg-opacity-90 lg:px-8 xl:px-10"
+                  className="inline-flex items-center justify-center px-10 py-4 text-base font-normal text-center text-white rounded-lg bg-primary hover:bg-opacity-90 lg:px-8 xl:px-10"
                 >
                   Get Started
                 </a>

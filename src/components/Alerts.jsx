@@ -5,7 +5,7 @@ const Alerts = () => {
     <>
       <section className="bg-white py-20 lg:py-[120px]">
         <div className="container">
-          <div className="-mx-4 flex flex-wrap justify-center">
+          <div className="flex flex-wrap justify-center -mx-4">
             <div className="w-full px-4 lg:w-10/12">
               <div className="mb-11 flex w-full rounded-lg border-l-[6px] border-transparent bg-white px-7 py-8 shadow-md md:p-9">
                 <div className="mr-5 flex h-9 w-full max-w-[36px] items-center justify-center rounded-lg bg-warning bg-opacity-30">
@@ -143,7 +143,7 @@ const Alerts = () => {
                   <h5 className="mb-3 text-base font-semibold text-[#B45454]">
                     There were 2 errors with your submission
                   </h5>
-                  <ul className="list-inside list-disc">
+                  <ul className="list-disc list-inside">
                     <li className="text-base leading-relaxed text-[#CD5D5D]">
                       Lorem Ipsum is simply dummy text of the printing
                     </li>
@@ -173,7 +173,7 @@ const Alerts = () => {
                   <h5 className="mb-3 text-base font-semibold text-[#B45454]">
                     There were 1 errors with your submission
                   </h5>
-                  <ul className="list-inside list-disc">
+                  <ul className="list-disc list-inside">
                     <li className="text-base leading-relaxed text-[#CD5D5D]">
                       Lorem Ipsum is simply dummy text of the printing
                     </li>
