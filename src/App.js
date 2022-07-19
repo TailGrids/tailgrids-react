@@ -29,7 +29,7 @@ import Portfolio from "./components/Portfolio";
 import Tabs from "./components/Tabs";
 import Video from "./components/Video";
 import Modal from "./components/Modal";
-import Preview from "./components/Card1/Preview";
+import Preview from "./components/Contact1/Preview";
 
 function App() {
   return (
@@ -43,7 +43,6 @@ function App() {
       <Button title="test button" color="secondary" outline />
       <Button title="test button" color="danger" rounded />
       <Button title="test button" color="primary" pill /> */}
-      {/* <Card /> */}
       {/* <Contact /> */}
       {/* <Cookies /> */}
       {/* <Cookies03 /> */}
