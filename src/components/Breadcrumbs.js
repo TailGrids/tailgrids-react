@@ -7,8 +7,8 @@ const Breadcrumbs = () => {
         {/* ====== Breadcrumbs Section Start */}
         <section className="pt-20 pb-10 lg:pt-[120px] lg:pb-20">
           <div className="container">
-            <div className="mb-8 w-full">
-              <div className="rounded-lg border border-light bg-white py-4 px-4 shadow-card sm:px-6 md:px-8 md:py-5">
+            <div className="w-full mb-8">
+              <div className="px-4 py-4 bg-white border rounded-lg border-light shadow-card sm:px-6 md:px-8 md:py-5">
                 <ul className="flex items-center">
                   <li className="flex items-center">
                     <a
@@ -72,7 +72,7 @@ const Breadcrumbs = () => {
                 </ul>
               </div>
             </div>
-            <div className="mb-8 w-full">
+            <div className="w-full mb-8">
               <div className="rounded-lg border border-light bg-[#f7f8fa] py-4 px-4 shadow-card sm:px-6 md:px-8 md:py-5">
                 <ul className="flex items-center">
                   <li className="flex items-center">
@@ -152,8 +152,8 @@ const Breadcrumbs = () => {
                 </ul>
               </div>
             </div>
-            <div className="mb-8 w-full">
-              <div className="rounded-lg border border-light bg-white py-4 px-4 shadow-card sm:px-6 md:px-8 md:py-5">
+            <div className="w-full mb-8">
+              <div className="px-4 py-4 bg-white border rounded-lg border-light shadow-card sm:px-6 md:px-8 md:py-5">
                 <ul className="flex items-center">
                   <li className="flex items-center">
                     <a
@@ -179,7 +179,7 @@ const Breadcrumbs = () => {
                 </ul>
               </div>
             </div>
-            <div className="mb-8 w-full">
+            <div className="w-full mb-8">
               <div className="rounded-lg border border-light bg-[#f7f8fa] py-4 px-4 shadow-card sm:px-6 md:px-8 md:py-5">
                 <ul className="flex items-center">
                   <li className="flex items-center">
@@ -221,8 +221,8 @@ const Breadcrumbs = () => {
                 </ul>
               </div>
             </div>
-            <div className="mb-8 w-full">
-              <div className="rounded-lg border border-light bg-white py-4 px-4 shadow-card sm:px-6 md:px-8 md:py-5">
+            <div className="w-full mb-8">
+              <div className="px-4 py-4 bg-white border rounded-lg border-light shadow-card sm:px-6 md:px-8 md:py-5">
                 <ul className="flex items-center">
                   <li className="flex items-center">
                     <a
@@ -276,7 +276,7 @@ const Breadcrumbs = () => {
                 </ul>
               </div>
             </div>
-            <div className="mb-8 w-full">
+            <div className="w-full mb-8">
               <div className="rounded-lg border border-light bg-[#f7f8fa] py-4 px-4 shadow-card sm:px-6 md:px-8 md:py-5">
                 <ul className="flex items-center">
                   <li className="flex items-center">
@@ -346,8 +346,8 @@ const Breadcrumbs = () => {
                 </ul>
               </div>
             </div>
-            <div className="mb-8 w-full">
-              <div className="rounded-lg border border-light bg-primary py-4 px-4 shadow-card sm:px-6 md:px-8 md:py-5">
+            <div className="w-full mb-8">
+              <div className="px-4 py-4 border rounded-lg border-light bg-primary shadow-card sm:px-6 md:px-8 md:py-5">
                 <ul className="flex items-center">
                   <li className="flex items-center">
                     <a
@@ -416,8 +416,8 @@ const Breadcrumbs = () => {
                 </ul>
               </div>
             </div>
-            <div className="mb-8 w-full">
-              <div className="rounded-lg border border-light bg-dark py-4 px-4 shadow-card sm:px-6 md:px-8 md:py-5">
+            <div className="w-full mb-8">
+              <div className="px-4 py-4 border rounded-lg border-light bg-dark shadow-card sm:px-6 md:px-8 md:py-5">
                 <ul className="flex items-center">
                   <li className="flex items-center">
                     <a
@@ -486,7 +486,7 @@ const Breadcrumbs = () => {
                 </ul>
               </div>
             </div>
-            <div className="mb-8 w-full">
+            <div className="w-full mb-8">
               <div className="rounded-lg border border-light bg-[#f7f8fa] py-4 px-4 shadow-card sm:px-6 md:px-8 md:py-5">
                 <ul className="flex items-center justify-center">
                   <li className="flex items-center">
