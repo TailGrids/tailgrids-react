@@ -1,10 +1,7 @@
 import React from "react";
 // import Button from "./components/Buttons1";
 import Error404 from "./components/Error404";
-import Breadcrumbs from "./components/Breadcrumbs";
 import ButtonGroup from "./components/ButtonGroup";
-import Buttons from "./components/Buttons";
-import Contact from "./components/Contact";
 import Cookies from "./components/Cookies";
 import Cookies03 from "./components/Cookies03";
 import Cookies04 from "./components/Cookies04";
@@ -29,20 +26,14 @@ import Portfolio from "./components/Portfolio";
 import Tabs from "./components/Tabs";
 import Video from "./components/Video";
 import Modal from "./components/Modal";
-import Preview from "./components/Contact1/Preview";
+import Preview from "./components/About1/Preview";
 
 function App() {
   return (
     <>
       {/* <Error404 /> */}
       <Preview />
-      {/* <Breadcrumbs /> */}
       {/* <ButtonGroup /> */}
-      {/* <Buttons /> */}
-      {/* <Button title="test button" color="secondary" />
-      <Button title="test button" color="secondary" outline />
-      <Button title="test button" color="danger" rounded />
-      <Button title="test button" color="primary" pill /> */}
       {/* <Contact /> */}
       {/* <Cookies /> */}
       {/* <Cookies03 /> */}
