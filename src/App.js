@@ -26,7 +26,7 @@ import Portfolio from "./components/Portfolio";
 import Tabs from "./components/Tabs";
 import Video from "./components/Video";
 import Modal from "./components/Modal";
-import Preview from "./components/About1/Preview";
+import Preview from "./components/Cookies1/Preview";
 
 function App() {
   return (
@@ -34,7 +34,6 @@ function App() {
       {/* <Error404 /> */}
       <Preview />
       {/* <ButtonGroup /> */}
-      {/* <Contact /> */}
       {/* <Cookies /> */}
       {/* <Cookies03 /> */}
       {/* <Cookies04 /> */}
