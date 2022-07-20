@@ -4,7 +4,6 @@ import ButtonGroup from "./components/ButtonGroup";
 import Footer from "./components/Footer";
 import Lists from "./components/Lists";
 import Pricing from "./components/Pricing";
-import Progress from "./components/Progress";
 import Services from "./components/Services";
 import Switch from "./components/Switch";
 import Tablies from "./components/Tablies";
@@ -18,7 +17,7 @@ import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
 import Tabs from "./components/Tabs";
 import Video from "./components/Video";
-import Preview from "./components/Paginations/Preview";
+import Preview from "./components/Progress/Preview";
 
 function App() {
   return (
@@ -28,7 +27,6 @@ function App() {
       {/* <Footer /> */}
       {/* <Lists /> */}
       {/* <Pricing /> */}
-      {/* <Progress /> */}
       {/* <Services /> */}
       {/* <Switch /> */}
       {/* <Tablies /> */}
