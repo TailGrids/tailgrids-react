@@ -2,7 +2,6 @@ import React from "react";
 // import Button from "./components/Buttons1";
 import Error404 from "./components/Error404";
 import ButtonGroup from "./components/ButtonGroup";
-import Cta from "./components/Cta";
 import Footer from "./components/Footer";
 import Lists from "./components/Lists";
 import Paginations from "./components/Paginations";
@@ -15,15 +14,13 @@ import Team from "./components/Team";
 import Tooltips from "./components/Tooltips";
 import FormElements from "./components/FormElements";
 import Forms from "./components/Forms";
-import Dropdown from "./components/Dropdown";
 import FAQ from "./components/FAQ";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
 import Tabs from "./components/Tabs";
 import Video from "./components/Video";
-import Modal from "./components/Modal";
-import Preview from "./components/Cookies4/Preview";
+import Preview from "./components/Modal/Preview";
 
 function App() {
   return (
@@ -31,7 +28,6 @@ function App() {
       {/* <Error404 /> */}
       <Preview />
       {/* <ButtonGroup /> */}
-      {/* <Cta /> */}
       {/* <Footer /> */}
       {/* <Lists /> */}
       {/* <Paginations /> */}
@@ -44,19 +40,13 @@ function App() {
       {/* <Tooltips /> */}
       {/* <FormElements /> */}
       {/* <Forms /> */}
-      {/* <Dropdown /> */}
       {/* <FAQ /> */}
       {/* <Navbar /> */}
       {/* <Hero /> */}
       {/* <Portfolio /> */}
       {/* <Tabs /> */}
       {/* 
-      // 
-      // 
-      // 
-      */}
       {/* <Video /> */}
-      {/* <Modal /> */}
     </>
   );
 }
