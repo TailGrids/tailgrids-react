@@ -17,7 +17,7 @@ import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
 import Tabs from "./components/Tabs";
 import Video from "./components/Video";
-import Preview from "./components/Progress/Preview";
+import Preview from "./components/Video/Preview";
 
 function App() {
   return (
