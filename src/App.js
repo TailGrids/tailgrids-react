@@ -1,10 +1,8 @@
 import React from "react";
 // import Button from "./components/Buttons1";
-import Error404 from "./components/Error404";
 import ButtonGroup from "./components/ButtonGroup";
 import Footer from "./components/Footer";
 import Lists from "./components/Lists";
-import Paginations from "./components/Paginations";
 import Pricing from "./components/Pricing";
 import Progress from "./components/Progress";
 import Services from "./components/Services";
@@ -20,17 +18,15 @@ import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
 import Tabs from "./components/Tabs";
 import Video from "./components/Video";
-import Preview from "./components/Modal/Preview";
+import Preview from "./components/Paginations/Preview";
 
 function App() {
   return (
     <>
-      {/* <Error404 /> */}
       <Preview />
       {/* <ButtonGroup /> */}
       {/* <Footer /> */}
       {/* <Lists /> */}
-      {/* <Paginations /> */}
       {/* <Pricing /> */}
       {/* <Progress /> */}
       {/* <Services /> */}
@@ -45,7 +41,6 @@ function App() {
       {/* <Hero /> */}
       {/* <Portfolio /> */}
       {/* <Tabs /> */}
-      {/* 
       {/* <Video /> */}
     </>
   );
