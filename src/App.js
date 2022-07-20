@@ -2,9 +2,6 @@ import React from "react";
 // import Button from "./components/Buttons1";
 import Error404 from "./components/Error404";
 import ButtonGroup from "./components/ButtonGroup";
-import Cookies from "./components/Cookies";
-import Cookies03 from "./components/Cookies03";
-import Cookies04 from "./components/Cookies04";
 import Cta from "./components/Cta";
 import Footer from "./components/Footer";
 import Lists from "./components/Lists";
@@ -26,7 +23,7 @@ import Portfolio from "./components/Portfolio";
 import Tabs from "./components/Tabs";
 import Video from "./components/Video";
 import Modal from "./components/Modal";
-import Preview from "./components/Cookies1/Preview";
+import Preview from "./components/Cookies4/Preview";
 
 function App() {
   return (
@@ -34,9 +31,6 @@ function App() {
       {/* <Error404 /> */}
       <Preview />
       {/* <ButtonGroup /> */}
-      {/* <Cookies /> */}
-      {/* <Cookies03 /> */}
-      {/* <Cookies04 /> */}
       {/* <Cta /> */}
       {/* <Footer /> */}
       {/* <Lists /> */}
