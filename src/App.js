@@ -1,10 +1,7 @@
-import React from "react";
-// import Button from "./components/Buttons1";
 import ButtonGroup from "./components/ButtonGroup";
 import Footer from "./components/Footer";
 import Lists from "./components/Lists";
 import Pricing from "./components/Pricing";
-import Services from "./components/Services";
 import Switch from "./components/Switch";
 import Tablies from "./components/Tablies";
 import Team from "./components/Team";
@@ -16,8 +13,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
 import Tabs from "./components/Tabs";
-import Video from "./components/Video";
-import Preview from "./components/Video/Preview";
+import Preview from "./components/Service/Preview";
 
 function App() {
   return (
@@ -27,7 +23,6 @@ function App() {
       {/* <Footer /> */}
       {/* <Lists /> */}
       {/* <Pricing /> */}
-      {/* <Services /> */}
       {/* <Switch /> */}
       {/* <Tablies /> */}
       {/* <Team /> */}
@@ -39,7 +34,6 @@ function App() {
       {/* <Hero /> */}
       {/* <Portfolio /> */}
       {/* <Tabs /> */}
-      {/* <Video /> */}
     </>
   );
 }
