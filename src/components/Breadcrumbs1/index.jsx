@@ -1,6 +1,6 @@
 import React from "react";
 
-const Breadcrumbs = ({ path1 }) => {
+const Breadcrumbs = () => {
   return (
     <>
       <div className="container">

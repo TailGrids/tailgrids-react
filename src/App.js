@@ -1,4 +1,3 @@
-import ButtonGroup from "./components/ButtonGroup";
 import Footer from "./components/Footer";
 import Lists from "./components/Lists";
 import Tablies from "./components/Tablies";
@@ -11,13 +10,12 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
 import Tabs from "./components/Tabs";
-import Preview from "./components/Pricing/Preview";
+import Preview from "./components/ButtonGroup/Preview";
 
 function App() {
   return (
     <>
       <Preview />
-      {/* <ButtonGroup /> */}
       {/* <Footer /> */}
       {/* <Lists /> */}
       {/* <Tablies /> */}
