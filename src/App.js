@@ -5,16 +5,15 @@ import Tooltips from "./components/Tooltips";
 import FormElements from "./components/FormElements";
 import Forms from "./components/Forms";
 import FAQ from "./components/FAQ";
-import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
 import Tabs from "./components/Tabs";
-import Preview from "./components/Team/Preview";
+import Preview from "./components/Navbar/Preview";
 
 function App() {
   return (
     <>
-      {/* <Preview /> */}
+      <Preview />
       {/* <Footer /> */}
       {/* <Lists /> */}
       {/* <Tablies /> */}
@@ -22,7 +21,6 @@ function App() {
       {/* <FormElements /> */}
       {/* <Forms /> */}
       {/* <FAQ /> */}
-      {/* <Navbar /> */}
       {/* <Hero /> */}
       {/* <Portfolio /> */}
       {/* <Tabs /> */}
