@@ -1,16 +1,14 @@
-import Tablies from "./components/Tablies";
 import Tooltips from "./components/Tooltips";
 import FormElements from "./components/FormElements";
 import FAQ from "./components/FAQ";
 import Hero from "./components/Hero";
 import Tabs from "./components/Tabs";
-import Preview from "./components/List/Preview";
+import Preview from "./components/Tablies/Preview";
 
 function App() {
   return (
     <>
-      <Preview />
-      {/* <Tablies /> */}
+      {/* <Preview /> */}
       {/* <Tooltips /> */}
       {/* <FormElements /> */}
       {/* <FAQ /> */}
