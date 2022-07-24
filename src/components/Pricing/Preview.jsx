@@ -9,13 +9,13 @@ const Preview = () => {
       <Pricing
         subTitle="Pricing Tablie"
         title="Our Pricing Plan"
-        discription="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+        description="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
       >
         <PricingCard
           type="Personal"
           price="$59"
           subscription="year"
-          discription="Perfect for using in a personal website or a client project."
+          description="Perfect for using in a personal website or a client project."
           button="Choose Personal"
         >
           <List>1 User</List>
@@ -29,7 +29,7 @@ const Preview = () => {
           type="Business"
           price="$199"
           subscription="year"
-          discription="Perfect for using in a personal website or a client project."
+          description="Perfect for using in a personal website or a client project."
           button="Choose Business"
           active
         >
@@ -44,7 +44,7 @@ const Preview = () => {
           type="Professional"
           price="$256"
           subscription="year"
-          discription="Perfect for using in a personal website or a client project."
+          description="Perfect for using in a personal website or a client project."
           button="Choose Professional"
         >
           <List>Unlimited User</List>

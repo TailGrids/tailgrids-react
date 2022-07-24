@@ -8,21 +8,21 @@ const Preview = () => {
         <Card
           image="https://i.ibb.co/r2zns1m/image-01.jpg"
           CartTitle=" Creative Card Component designs graphic elements"
-          CardDiscription=" Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
+          CardDescription=" Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
           Lorem consectetur adipiscing elit."
           Button="View Details"
         />
         <Card
           image="https://i.ibb.co/0nbbWM9/image-02-1.jpg"
           CartTitle=" Creative Card Component designs graphic elements"
-          CardDiscription=" Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
+          CardDescription=" Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
           Lorem consectetur adipiscing elit."
           Button="View Details"
         />
         <Card
           image="https://i.ibb.co/dL9fH7N/image-03-1.jpg"
           CartTitle=" Creative Card Component designs graphic elements"
-          CardDiscription=" Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
+          CardDescription=" Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
           Lorem consectetur adipiscing elit."
           Button="View Details"
         />

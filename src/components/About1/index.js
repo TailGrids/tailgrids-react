@@ -6,7 +6,7 @@ const index = ({
   image3,
   subtitle,
   title,
-  discription,
+  description,
   button,
 }) => {
   return (
@@ -608,7 +608,7 @@ const index = ({
               <h2 className="mb-8 text-3xl font-bold text-dark sm:text-4xl">
                 {title}
               </h2>
-              <p className="mb-8 text-base text-body-color">{discription}</p>
+              <p className="mb-8 text-base text-body-color">{description}</p>
               <a
                 href="/#"
                 className="inline-flex items-center justify-center px-10 py-4 text-base font-normal text-center text-white rounded-lg bg-primary hover:bg-opacity-90 lg:px-8 xl:px-10"

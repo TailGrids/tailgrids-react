@@ -8,7 +8,7 @@ const Preview = () => {
       <Team
         subtitle="Our Team"
         title="Our Awesome Team"
-        discription="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+        description="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
       >
         <TeamCard
           name="Coriss Ambady"

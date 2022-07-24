@@ -8,7 +8,7 @@ const Preview = () => {
       <Contact
         subtitle="Contact Us"
         title="GET IN TOUCH WITH US"
-        discription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius tempor incididunt ut labore e dolore magna aliqua. Ut enim adiqua minim veniam quis nostrud exercitation ullamco"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius tempor incididunt ut labore e dolore magna aliqua. Ut enim adiqua minim veniam quis nostrud exercitation ullamco"
         addressTitle="Our Location"
         address="99 S.t Jomblo Park Pekanbaru 28292. Indonesia"
         phone=" Phone Number"

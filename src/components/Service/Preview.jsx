@@ -12,7 +12,7 @@ const Preview = () => {
       <Services
         subtitle="Our Services"
         title="What We Offer"
-        discription="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form"
+        description="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form"
       >
         <ServiceCard
           danger

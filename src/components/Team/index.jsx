@@ -1,6 +1,6 @@
 import React from "react";
 
-const Team = ({ children, title, subtitle, discription }) => {
+const Team = ({ children, title, subtitle, description }) => {
   return (
     <>
       {/* ====== Team Section Start */}
@@ -14,7 +14,7 @@ const Team = ({ children, title, subtitle, discription }) => {
               <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
                 {title}
               </h2>
-              <p className="text-base text-body-color">{discription}</p>
+              <p className="text-base text-body-color">{description}</p>
             </div>
           </div>
         </div>

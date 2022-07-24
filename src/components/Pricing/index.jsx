@@ -1,6 +1,6 @@
 import React from "react";
 
-const Pricing = ({ children, subTitle, title, discription }) => {
+const Pricing = ({ children, subTitle, title, description }) => {
   return (
     <div>
       <section className="relative z-20 overflow-hidden bg-white pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
@@ -14,7 +14,7 @@ const Pricing = ({ children, subTitle, title, discription }) => {
                 <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">
                   {title}
                 </h2>
-                <p className="text-base text-body-color">{discription}</p>
+                <p className="text-base text-body-color">{description}</p>
               </div>
             </div>
           </div>

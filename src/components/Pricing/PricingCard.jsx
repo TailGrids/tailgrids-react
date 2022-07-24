@@ -2,7 +2,7 @@ import React from "react";
 
 const PricingCard = ({
   children,
-  discription,
+  description,
   price,
   type,
   subscription,
@@ -23,7 +23,7 @@ const PricingCard = ({
             </span>
           </h2>
           <p className="mb-8 border-b border-[#F2F2F2] pb-8 text-base text-body-color">
-            {discription}
+            {description}
           </p>
           <ul className="mb-7">
             <p className="mb-1 text-base leading-loose text-body-color">

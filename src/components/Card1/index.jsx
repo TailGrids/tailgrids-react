@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ image, Button, CardDiscription, CartTitle }) => {
+const Card = ({ image, Button, Carddescription, CartTitle }) => {
   return (
     <>
       {/*  */}
@@ -16,7 +16,7 @@ const Card = ({ image, Button, CardDiscription, CartTitle }) => {
             </a>
           </h3>
           <p className="text-base leading-relaxed mb-7 text-body-color">
-            {CardDiscription}
+            {CardDescription}
           </p>
 
           {Button && (
