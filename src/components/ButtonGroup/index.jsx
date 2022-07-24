@@ -29,7 +29,7 @@ const ButtonGroup = ({
               (roundedSm && "rounded-l-sm") ||
               (roundedNone && "rounded-none") ||
               (roundedMd && "rounded-l-md")
-            } border ${
+            }  ${
               (danger &&
                 `border-danger bg-danger hover:border-danger hover:bg-danger`) ||
               (warning &&
@@ -42,7 +42,7 @@ const ButtonGroup = ({
                 `border-secondary bg-secondary hover:border-secondary hover:bg-secondary`) ||
               (gray &&
                 `border-body-color bg-body-color hover:border-body-color hover:bg-body-color`)
-            }   py-[10px] px-[12px] text-center text-base font-semibold text-white transition-all border-primary bg-primary hover:border-primary hover:bg-primary  hover:text-white sm:py-3 sm:px-6`}
+            }  border py-[10px] px-[12px] text-center text-base font-semibold text-white transition-all border-primary bg-primary hover:border-primary hover:bg-primary  hover:text-white sm:py-3 sm:px-6`}
           >
             <span className="pr-2">
               <svg
