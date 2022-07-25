@@ -1,10 +1,10 @@
 import React from "react";
-import Breadcrumbs from "../Breadcrumbs1";
+import Button from "../Buttons";
 
 const Preview = () => {
   return (
     <>
-      <Breadcrumbs path1={[]} />
+      <Button color="bg-primary" outline title="Get Started" href pill />
     </>
   );
 };

@@ -1,8 +1,13 @@
 import React from "react";
 import { useState } from "react";
 
-const Cookies4 = ({ title, description, active = true }) => {
-  const [Open, setOpen] = useState(active);
+const Cookies4 = ({
+  title,
+  description,
+  color = "white",
+  theme = "primary",
+}) => {
+  const [Open, setOpen] = useState(true);
 
   const handleOpen = () => {
     setOpen(false);
@@ -13,7 +18,7 @@ const Cookies4 = ({ title, description, active = true }) => {
       {Open && (
         <div className="container">
           <div
-            className={`relative ml-auto w-full max-w-[352px]  overflow-hidden rounded-lg bg-white py-10 px-6 text-center shadow-card xs:px-10`}
+            className={`relative ml-auto w-full max-w-[352px]  overflow-hidden rounded-lg bg-${color} py-10 px-6 text-center shadow-card xs:px-10`}
           >
             <button onClick={handleOpen} className="absolute top-6 right-6">
               <svg
@@ -37,7 +42,9 @@ const Cookies4 = ({ title, description, active = true }) => {
                 </g>
               </svg>
             </button>
-            <div className="mx-auto mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-full bg-primary">
+            <div
+              className={`mx-auto mb-8 flex h-[100px] w-[100px] items-center justify-center rounded-full bg-${theme}`}
+            >
               <svg
                 width={54}
                 height={54}
@@ -63,12 +70,14 @@ const Cookies4 = ({ title, description, active = true }) => {
               onClick={handleOpen}
               className="flex items-center justify-center space-x-4"
             >
-              <button className="inline-flex items-center justify-center rounded-md border border-primary py-[9px] px-5 text-center text-base font-semibold text-primary hover:bg-primary hover:bg-opacity-5 xs:px-8">
+              <button
+                className={`inline-flex items-center justify-center rounded-md border border-${theme} py-[9px] px-5 text-center text-base font-semibold text-${theme} hover:bg-primary hover:bg-opacity-5 xs:px-8`}
+              >
                 Exit
               </button>
               <button
                 onClick={handleOpen}
-                className="inline-flex items-center justify-center rounded-md bg-primary py-[10px] px-5 text-center text-base font-semibold text-white hover:bg-opacity-90 xs:px-8"
+                className={`inline-flex items-center justify-center rounded-md bg-${theme} py-[10px] px-5 text-center text-base font-semibold text-white hover:bg-opacity-90 xs:px-8`}
               >
                 Accept
               </button>

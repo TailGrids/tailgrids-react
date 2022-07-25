@@ -190,7 +190,7 @@ const FAQ = () => {
                 <button
                   className="flex w-full text-left faq-btn"
                   // @click="openFaq2 = !openFaq2"
-                  onClick={() => setOpen6(!open6)}
+                  onClick={() => setOpen5(!open5)}
                 >
                   <div className="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
                     <svg
@@ -227,7 +227,7 @@ const FAQ = () => {
                 <button
                   className="flex w-full text-left faq-btn"
                   // @click="openFaq3 = !openFaq3"
-                  onClick={() => setOpen5(!open5)}
+                  onClick={() => setOpen6(!open6)}
                 >
                   <div className="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
                     <svg

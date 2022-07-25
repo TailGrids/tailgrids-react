@@ -23,7 +23,12 @@ let useClickOutside = (handler) => {
 };
 // Handler hook for when Outside click dropdown close End Code====>>
 
-const Dropdown = ({ Button, children }) => {
+const Dropdown = ({
+  Button,
+  children,
+  bgColor = "primary",
+  dropColor = "white",
+}) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   let domNode = useClickOutside(() => {
@@ -41,7 +46,7 @@ const Dropdown = ({ Button, children }) => {
               <div className="relative inline-block mb-8 text-left">
                 <button
                   onClick={() => setDropdownOpen(!dropdownOpen)}
-                  className={`flex items-center px-5 py-3 text-base font-semibold text-white rounded bg-primary`}
+                  className={`flex items-center px-5 py-3 text-base font-semibold text-white rounded bg-${bgColor}`}
                 >
                   {Button}
                   <span className="pl-2">
@@ -61,7 +66,7 @@ const Dropdown = ({ Button, children }) => {
                   </span>
                 </button>
                 <div
-                  className={`absolute left-0 z-40 mt-2 w-full rounded border-[.5px] border-light bg-white py-5 shadow-card transition-all ${
+                  className={`absolute left-0 z-40 mt-2 w-full rounded border-[.5px] border-light bg-${dropColor} py-5 shadow-card transition-all ${
                     dropdownOpen
                       ? "top-full opacity-100 visible"
                       : "top-[110%] invisible opacity-0"

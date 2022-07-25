@@ -8,6 +8,7 @@ const Modal = ({
   modalBody,
   modalTitle,
   viewDetailsSrc,
+  theme = "primary",
 }) => {
   const [modalOpen, setModalOpen] = useState(false);
 
@@ -17,7 +18,7 @@ const Modal = ({
       <div className="container ">
         <button
           onClick={() => setModalOpen(true)}
-          className="px-6 py-3 text-base font-medium text-white rounded-full bg-primary"
+          className={`px-6 py-3 text-base font-medium text-white rounded-full bg-${theme}`}
         >
           {button}
         </button>
@@ -25,6 +26,7 @@ const Modal = ({
 
       {modalOpen && (
         <ModalBody
+          theme={theme}
           setModalOpen={setModalOpen}
           ModalViewDetails={ModalViewDetails}
           modalClose={modalClose}

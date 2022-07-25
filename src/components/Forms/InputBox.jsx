@@ -1,6 +1,12 @@
 import React from "react";
 
-const InputBox = ({ type, placeholder, name, defaultValue }) => {
+const InputBox = ({
+  type,
+  placeholder,
+  name,
+  defaultValue,
+  bgColor = "primary",
+}) => {
   return (
     <>
       {type === "submit" ? (
@@ -10,7 +16,7 @@ const InputBox = ({ type, placeholder, name, defaultValue }) => {
             placeholder={placeholder}
             name={name}
             value={defaultValue}
-            className="w-full px-5 py-3 text-base text-white transition border rounded-md cursor-pointer bordder-primary bg-primary hover:bg-opacity-90"
+            className={`w-full px-5 py-3 text-base text-white transition border rounded-md cursor-pointer bordder-primary bg-${bgColor} hover:bg-opacity-90`}
           />
         </div>
       ) : (

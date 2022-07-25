@@ -14,7 +14,7 @@ const Alerts = ({
       <div className="flex flex-wrap justify-center -mx-4">
         <div className="w-full px-4 lg:w-10/12">
           <div
-            className={`mb-11 flex w-full rounded-lg ${
+            className={` flex w-full rounded-lg ${
               (background && borderLeft && `border-l-[6px] border-${type}`) ||
               (background && borderRight && `border-r-[6px] border-${type}`) // why no working type error color
             }  bg-white ${

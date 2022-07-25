@@ -1,17 +1,22 @@
 import React from "react";
-import Cta1 from "../Cta1";
+import Cta from ".";
+import Button from "./Button";
 
 const Preview = () => {
   return (
     <>
-      <Cta1
+      <Cta
+        bgColor="primary"
         subtitle="Find Your Next Dream App"
         title="Get started with our free trial"
         button1="go Pro Version"
         btnSrc1="#"
         button2="Start Free Trial"
         btnSrc2="#"
-      />
+      >
+        <Button btnColor="info"> Go to Pro </Button>
+        <Button btnColor="white"> Start Free Trial </Button>
+      </Cta>
     </>
   );
 };

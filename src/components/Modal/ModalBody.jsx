@@ -8,6 +8,7 @@ const ModalBody = ({
   modalClose,
   modalBody,
   modalTitle,
+  theme,
 }) => {
   return (
     <>
@@ -19,7 +20,9 @@ const ModalBody = ({
           <h3 className="pb-2 text-xl font-bold text-dark sm:text-2xl">
             {modalTitle}
           </h3>
-          <span className="mx-auto mb-6 inline-block h-1 w-[90px] rounded bg-primary"></span>
+          <span
+            className={`mx-auto mb-6 inline-block h-1 w-[90px] rounded bg-${theme}`}
+          ></span>
           <p className="mb-10 text-base leading-relaxed text-body-color">
             {modalBody}
           </p>
@@ -33,7 +36,9 @@ const ModalBody = ({
               </button>
             </div>
             <div className="w-1/2 px-3">
-              <button className="block w-full p-3 text-base font-medium text-center text-white transition border rounded-lg border-primary bg-primary hover:bg-opacity-90">
+              <button
+                className={`block w-full p-3 text-base font-medium text-center text-white transition border rounded-lg border-${theme} bg-${theme} hover:bg-opacity-90`}
+              >
                 <a href={`${viewDetailsSrc}`}> {ModalViewDetails}</a>
               </button>
             </div>

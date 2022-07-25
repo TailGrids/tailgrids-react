@@ -2,7 +2,7 @@ import FormElements from "./components/FormElements";
 import FAQ from "./components/FAQ";
 import Hero from "./components/Hero";
 import Tabs from "./components/Tabs";
-import Preview from "./components/Tooltip/Preview";
+import Preview from "./components/Navbar/Preview";
 
 function App() {
   return (

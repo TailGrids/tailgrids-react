@@ -11,6 +11,12 @@ const Preview = () => {
         <SubMenu menu="Button" />
         <SubMenu menu="Subscribe" />
       </Dropdown>
+      <Dropdown bgColor="warning" dropColor="white" Button="Dropdown Button">
+        <SubMenu menu="Dashboad" />
+        <SubMenu menu="Preview" />
+        <SubMenu menu="Button" />
+        <SubMenu menu="Subscribe" />
+      </Dropdown>
     </>
   );
 };

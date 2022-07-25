@@ -25,6 +25,7 @@ const Preview = () => {
           defaultValue=""
         />
         <InputBox
+          bgColor="primary"
           type="submit"
           placeholder="password"
           name="password"

@@ -2,7 +2,7 @@
 import React from "react";
 import { useState } from "react";
 
-const index = () => {
+const index = ({ details, title, children }) => {
   const [open, setOpen] = useState(true);
 
   const handleHide = () => {
@@ -17,10 +17,7 @@ const index = () => {
             <div className="flex flex-wrap items-center -mx-4">
               <div className="w-full px-4 lg:w-7/12">
                 <div className="mb-6 lg:mb-0">
-                  <p className="text-base font-medium text-white">
-                    This website uses cookies to ensure you get the best
-                    experience on our website.
-                  </p>
+                  <p className="text-base font-medium text-white">{details}</p>
                 </div>
               </div>
               <div className="w-full px-4 lg:w-5/12">
@@ -29,17 +26,16 @@ const index = () => {
                     href="/#"
                     className="mb-2 mr-4 text-base font-semibold text-white hover:underline"
                   >
-                    Cookie Policies
+                    {title}
                   </a>
                   <div
-                    onClick={handleHide}
+                    // onClick={handleHide}
                     className="flex items-center mb-2 space-x-4"
                   >
-                    <button className="inline-flex items-center justify-center rounded-md bg-white py-[10px] px-8 text-center text-base font-semibold text-body-color shadow-card hover:bg-opacity-90 hover:text-primary">
-                      Accept Cookies
-                    </button>
+                    {children}
+
                     <button
-                      onClick={handleHide}
+                      // onClick={handleHide}
                       className="inline-flex items-center justify-center text-center text-white rounded-md h-11"
                     >
                       <svg

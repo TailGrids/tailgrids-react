@@ -17,6 +17,7 @@ const Preview = () => {
         youtubeLink="/#"
         linkedinLink="/#"
       >
+        {/* hoverColor="primary" available */}
         <LinkGroup header="Resources">
           <NavLink src="/sass">SaaS Development</NavLink>
           <NavLink src="/#">Our Products</NavLink>

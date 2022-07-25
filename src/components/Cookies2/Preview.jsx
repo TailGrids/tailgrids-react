@@ -1,5 +1,6 @@
 import React from "react";
 import Cookies2 from "../Cookies2";
+import Button from "./Button";
 
 const Preview = () => {
   return (
@@ -7,8 +8,12 @@ const Preview = () => {
       <Cookies2
         details="This website uses cookies to ensure you get the best experience on our website."
         title="Cookie Policies"
-        button="Accept Cookies"
-      />
+        titleRef
+      >
+        <Button textHoverColor textColor color="white" rounded="rounded-md">
+          Accepts Cookeis
+        </Button>
+      </Cookies2>
     </>
   );
 };

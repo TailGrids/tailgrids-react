@@ -1,10 +1,12 @@
 import React from "react";
 
-const Cta = ({ subtitle, title, button1, btnSrc1, button2, btnSrc2 }) => {
+const Cta = ({ subtitle, title, children, bgColor = "primary" }) => {
   return (
     <>
       <div className="container">
-        <div className="relative z-10 overflow-hidden rounded bg-primary py-12 px-8 md:p-[70px]">
+        <div
+          className={`relative z-10 overflow-hidden rounded bg-${bgColor} py-12 px-8 md:p-[70px]`}
+        >
           <div className="flex flex-wrap items-center -mx-4">
             <div className="w-full px-4 lg:w-1/2">
               <span className="mb-2 text-base font-semibold text-white">
@@ -15,19 +17,8 @@ const Cta = ({ subtitle, title, button1, btnSrc1, button2, btnSrc2 }) => {
               </h2>
             </div>
             <div className="w-full px-4 lg:w-1/2">
-              <div className="flex flex-wrap lg:justify-end">
-                <a
-                  href={btnSrc1}
-                  className="my-1 mr-4 inline-block rounded bg-white bg-opacity-[15%] py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-100 hover:text-primary md:px-9 lg:px-6 xl:px-9"
-                >
-                  {button1}
-                </a>
-                <a
-                  href={btnSrc2}
-                  className="my-1 inline-block rounded bg-[#13C296] py-4 px-6 text-base font-medium text-white transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9"
-                >
-                  {button2}
-                </a>
+              <div className="flex flex-wrap space-x-4 lg:justify-end">
+                {children}
               </div>
             </div>
           </div>

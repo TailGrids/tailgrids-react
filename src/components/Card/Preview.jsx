@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../Card1";
+import Card from "../Card";
 
 const Preview = () => {
   return (
@@ -8,6 +8,8 @@ const Preview = () => {
         <Card
           image="https://i.ibb.co/r2zns1m/image-01.jpg"
           CartTitle=" Creative Card Component designs graphic elements"
+          titleHref
+          btnHref
           CardDescription=" Lorem ipsum dolor sit amet pretium consectetur adipiscing elit.
           Lorem consectetur adipiscing elit."
           Button="View Details"
