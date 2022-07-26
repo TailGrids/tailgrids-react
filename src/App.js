@@ -1,17 +1,17 @@
-import FormElements from "./components/FormElements";
 import FAQ from "./components/FAQ";
 import Hero from "./components/Hero";
 import Tabs from "./components/Tabs";
-import Preview from "./components/Navbar/Preview";
+import Portfolio from "./components/Portfolio";
+import Preview from "./components/FormElements/Preview";
 
 function App() {
   return (
     <>
-      <Preview />
-      {/* <FormElements /> */}
+      {/* <Preview /> */}
       {/* <FAQ /> */}
-      {/* <Hero /> */}
+      <Hero />
       {/* <Tabs /> */}
+      {/* <Portfolio /> */}
     </>
   );
 }

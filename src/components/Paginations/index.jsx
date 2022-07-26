@@ -1,18 +1,20 @@
 import React from "react";
 
-const Paginations = ({ children }) => {
+const Paginations = ({ children, color = "info" }) => {
   return (
     <>
       <>
         <div className="container">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
-              <div className="mb-12 inline-flex rounded-xl border border-[#e4e4e4] bg-white p-4">
+              <div
+                className={`mb-12 inline-flex rounded-xl border border-[#e4e4e4] bg-white p-4`}
+              >
                 <ul className="-mx-[6px] flex items-center">
                   <li className="px-[6px]">
                     <a
                       href="/#"
-                      className="flex h-9 w-9 items-center justify-center rounded-md border border-[#EDEFF1] text-base text-[#838995] hover:border-primary hover:bg-primary hover:text-white"
+                      className={`flex h-9 w-9 items-center justify-center rounded-md border border-[#EDEFF1] text-base text-[#838995] hover:border-${color} hover:bg-${color} hover:text-white`}
                     >
                       <span>
                         <svg
@@ -35,7 +37,7 @@ const Paginations = ({ children }) => {
                   <li className="px-[6px]">
                     <a
                       href="/#"
-                      className="flex h-9 w-9 items-center justify-center rounded-md border border-[#EDEFF1] text-base text-[#838995] hover:border-primary hover:bg-primary hover:text-white"
+                      className={`flex h-9 w-9 items-center justify-center rounded-md border border-[#EDEFF1] text-base text-[#838995] hover:border-${color} hover:bg-${color} hover:text-white`}
                     >
                       <span>
                         <svg

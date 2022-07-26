@@ -5,13 +5,13 @@ import Page from "./Page";
 const Preview = () => {
   return (
     <>
-      <Paginations>
-        <Page count="1" pageSrc="/#" />
-        <Page count="2" pageSrc="/#" />
-        <Page count="3" pageSrc="/#" />
-        <Page count="4" pageSrc="/#" />
-        <Page count="5" pageSrc="/#" />
-        <Page count="6" pageSrc="/#" />
+      <Paginations color="primary">
+        <Page color="primary" count="1" pageSrc="/#" />
+        <Page color="primary" count="2" pageSrc="/#" />
+        <Page color="primary" count="3" pageSrc="/#" />
+        <Page color="primary" count="4" pageSrc="/#" />
+        <Page color="primary" count="5" pageSrc="/#" />
+        <Page color="primary" count="6" pageSrc="/#" />
       </Paginations>
     </>
   );

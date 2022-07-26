@@ -3,7 +3,7 @@ import Video from ".";
 
 const Preview = () => {
   return (
-    <div>
+    <div className="container space-y-12 my-28">
       <Video
         primary
         bgImageSrc="https://i.ibb.co/KbSwcWJ/image-01-1.jpg"
