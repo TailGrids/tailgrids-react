@@ -3,6 +3,8 @@ import Paginations from ".";
 import Page from "./Page";
 
 const Preview = () => {
+  let totalPage = 35;
+
   return (
     <>
       <Paginations color="primary">

@@ -16,7 +16,7 @@ const Badges = ({
   roundedNone,
   roundedSm,
   roundedMd,
-  children,
+  label,
 }) => {
   return (
     <>
@@ -186,7 +186,7 @@ const Badges = ({
             }`)
         }`}
       >
-        {children}
+        {label}
       </span>
     </>
   );

@@ -2,7 +2,7 @@
 import React from "react";
 import { useState } from "react";
 
-const index = ({ details, title, children }) => {
+const index = ({ details, title, children, titleRef }) => {
   const [open, setOpen] = useState(true);
 
   const handleHide = () => {
@@ -23,19 +23,19 @@ const index = ({ details, title, children }) => {
               <div className="w-full px-4 lg:w-5/12">
                 <div className="flex flex-wrap items-center lg:justify-end">
                   <a
-                    href="/#"
+                    href={titleRef}
                     className="mb-2 mr-4 text-base font-semibold text-white hover:underline"
                   >
                     {title}
                   </a>
                   <div
-                    // onClick={handleHide}
+                    onClick={handleHide}
                     className="flex items-center mb-2 space-x-4"
                   >
                     {children}
 
                     <button
-                      // onClick={handleHide}
+                      onClick={handleHide}
                       className="inline-flex items-center justify-center text-center text-white rounded-md h-11"
                     >
                       <svg

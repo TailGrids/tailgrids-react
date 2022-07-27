@@ -1,10 +1,10 @@
 import React from "react";
 import Services from ".";
 import ServiceCard from "./ServiceCard";
-import icon from "./icons1.svg";
-import icon2 from "./icons2.svg";
-import icon3 from "./icons3.svg";
-import icon4 from "./icons4.svg";
+import svg from "./icons1.svg";
+import svg2 from "./icons2.svg";
+import svg3 from "./icons3.svg";
+import svg4 from "./icons4.svg";
 
 const Preview = () => {
   return (
@@ -18,38 +18,38 @@ const Preview = () => {
           title="Refreshing Design"
           details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
         >
-          <img src={icon2} alt="" />
+          <img src={svg} alt="" />
         </ServiceCard>
         {/*  */}
         <ServiceCard
           title="Refreshing Design"
           details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
         >
-          <img src={icon2} alt="" />
+          <img src={svg2} alt="" />
         </ServiceCard>
         <ServiceCard
           title="Refreshing Design"
           details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
         >
-          <img src={icon3} alt="" />
+          <img src={svg3} alt="" />
         </ServiceCard>
         <ServiceCard
           title="Refreshing Design"
           details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
         >
-          <img src={icon4} alt="" />
+          <img src={svg4} alt="" />
         </ServiceCard>
         <ServiceCard
           title="Refreshing Design"
           details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
         >
-          <img src={icon4} alt="" />
+          <img src={svg4} alt="" />
         </ServiceCard>
         <ServiceCard
           title="Refreshing Design"
           details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
         >
-          <img src={icon4} alt="" />
+          <img src={svg3} alt="" />
         </ServiceCard>
       </Services>
     </div>

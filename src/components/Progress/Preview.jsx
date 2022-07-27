@@ -9,9 +9,9 @@ const Preview = () => {
       <Progress danger />
       <Progress success />
       <Progress ShowValue />
-      <Progress danger ShowValue />
+      <Progress danger ShowValue value="70" />
       <Progress warning ShowValue />
-      <Progress success ShowValue />
+      <Progress success ShowValue value="90" />
       <Progress warning ShowValueInside />
       <Progress success ShowValueInside />
       <Progress danger ShowValueInside />

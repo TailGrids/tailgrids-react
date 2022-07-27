@@ -1,32 +1,32 @@
 import React from "react";
 import FormElements from "../FormElements";
-import Elements from "./Elements";
+import Element from "./Element";
 
 const Preview = () => {
   return (
     <>
       <FormElements>
-        <Elements input placeholder="Default Input" level="Default Input" />
-        <Elements
+        <Element input placeholder="Default Input" level="Default Input" />
+        <Element
           input
           placeholder="Default Input"
           active
           level="Default Input"
         />
-        <Elements
+        <Element
           input
           placeholder="Default Input"
           disabled
           level="Default Input"
         />
-        <Elements
+        <Element
           textArea
           rows="5"
           defaultValue=""
           placeholder="Default Input"
           level="Default Input"
         />
-        <Elements
+        <Element
           textArea
           rows="5"
           active
@@ -34,21 +34,21 @@ const Preview = () => {
           placeholder="Default Input"
           level="Default Input"
         />
-        <Elements
+        <Element
           textArea
           defaultValue=""
           placeholder="Default Input"
           disabled
           level="Default Input"
         />
-        <Elements
+        <Element
           fileInput
           defaultValue=""
           placeholder="Default Input"
           disabled
           level="Default Input"
         />
-        <Elements
+        <Element
           Options
           defaultValue=""
           placeholder="Default Input"
@@ -58,7 +58,7 @@ const Preview = () => {
           <option value="">Option 1</option>
           <option value="">Option 2</option>
           <option value="">Option 3</option>
-        </Elements>
+        </Element>
       </FormElements>
     </>
   );

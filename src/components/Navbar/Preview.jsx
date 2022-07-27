@@ -10,10 +10,10 @@ const Preview = () => {
         button2="Sign up"
         logoSrc="https://cdn.tailgrids.com/1.0/assets/images/logo/logo.svg"
       >
-        <ListItem>Home</ListItem>
-        <ListItem>Payment</ListItem>
-        <ListItem>About</ListItem>
-        <ListItem>Blog</ListItem>
+        <ListItem NavLink="/#">Home</ListItem>
+        <ListItem NavLink="/#">Payment</ListItem>
+        <ListItem NavLink="/#">About</ListItem>
+        <ListItem NavLink="/#">Blog</ListItem>
       </Navbar>
     </>
   );

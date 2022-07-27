@@ -1,16 +1,20 @@
 import React from "react";
 import Pricing from ".";
+import Content from "./Content";
 import List from "./List";
 import PricingCard from "./PricingCard";
 
 const Preview = () => {
   return (
     <>
-      <Pricing
-        subTitle="Pricing Tablie"
-        title="Our Pricing Plan"
-        description="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
-      >
+      <Pricing>
+        <div className="container">
+          <Content
+            subTitle="Pricing Tablie"
+            title="Our Pricing Plan"
+            description="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          />
+        </div>
         <PricingCard
           type="Personal"
           price="$59"

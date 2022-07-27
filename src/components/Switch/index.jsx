@@ -21,7 +21,7 @@ const Switch = ({
       {/* ====== Switch Start */}
 
       {togglePrimary && (
-        <div className="">
+        <div className=" w-fit">
           <label
             htmlFor="toggleTwo"
             className="flex items-center cursor-pointer select-none"
@@ -35,7 +35,7 @@ const Switch = ({
         </div>
       )}
       {toggleSecondary && (
-        <div className="">
+        <div className="w-fit">
           <label
             htmlFor="toogleTwo"
             className="flex items-center cursor-pointer select-none"
@@ -49,7 +49,7 @@ const Switch = ({
         </div>
       )}
       {toggleThree && (
-        <div className="">
+        <div className="w-fit">
           <label
             htmlFor="toggleThree"
             className="flex items-center cursor-pointer select-none"
@@ -95,7 +95,7 @@ const Switch = ({
         </div>
       )}
       {toggleFour && (
-        <div className="">
+        <div className="w-fit">
           <label
             htmlFor="toggleFour"
             className="flex items-center cursor-pointer select-none"
@@ -109,7 +109,7 @@ const Switch = ({
         </div>
       )}
       {toggleFive && (
-        <div className="">
+        <div className="w-fit">
           <label
             htmlFor="toggleFive"
             className="flex items-center cursor-pointer select-none"
@@ -125,7 +125,7 @@ const Switch = ({
         </div>
       )}
       {toggleSix && (
-        <div className="">
+        <div className="w-fit">
           <label
             htmlFor="toggleSix"
             className="flex items-center cursor-pointer select-none"
@@ -139,7 +139,7 @@ const Switch = ({
         </div>
       )}
       {toggleSeven && (
-        <div className="">
+        <div className="w-fit">
           <label
             htmlFor="toggleSeven"
             className="flex items-center cursor-pointer select-none"
@@ -153,7 +153,7 @@ const Switch = ({
         </div>
       )}
       {toggleEight && (
-        <div className="">
+        <div className="w-fit">
           <label
             htmlFor="toggleEight"
             className="flex items-center cursor-pointer select-none"
@@ -169,7 +169,7 @@ const Switch = ({
         </div>
       )}
       {toggleNine && (
-        <div className="">
+        <div className="w-fit">
           <label
             htmlFor="toggleNine"
             className="flex items-center cursor-pointer select-none"

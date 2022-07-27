@@ -5,7 +5,7 @@ const Button = ({ children, href, btnColor }) => {
     <>
       <a
         href={href}
-        className={`my-1 inline-block rounded bg-${btnColor}
+        className={`my-1 cursor-pointer inline-block rounded bg-${btnColor}
          py-4 px-6 text-base font-medium text-${
            btnColor === "white" ? "black" : "white"
          } transition hover:bg-opacity-90 md:px-9 lg:px-6 xl:px-9`}

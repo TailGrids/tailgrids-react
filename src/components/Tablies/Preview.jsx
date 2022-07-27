@@ -7,7 +7,7 @@ import Thead from "./Thead";
 const Preview = () => {
   return (
     <>
-      <section className="bg-white py-20">
+      <section className="py-20 bg-white">
         <div className="container">
           <Tablies
             Thead={

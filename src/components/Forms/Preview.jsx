@@ -10,7 +10,7 @@ const Preview = () => {
         TwitterSrc="/#"
         GoogleSrc="/#"
         SignUp="/signup"
-        logoSrc="https://cdn.tailgrids.com/1.0/assets/images/logo/logo.svg"
+        logoHref="https://cdn.tailgrids.com/1.0/assets/images/logo/logo.svg"
       >
         <InputBox
           type="text"

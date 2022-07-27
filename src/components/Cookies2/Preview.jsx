@@ -8,11 +8,9 @@ const Preview = () => {
       <Cookies2
         details="This website uses cookies to ensure you get the best experience on our website."
         title="Cookie Policies"
-        titleRef
+        titleRef="#"
       >
-        <Button textHoverColor textColor color="white" rounded="rounded-md">
-          Accepts Cookeis
-        </Button>
+        <Button rounded="rounded-md">Accepts Cookeis</Button>
       </Cookies2>
     </>
   );

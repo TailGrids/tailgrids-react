@@ -11,8 +11,6 @@ const Tooltip = ({
   success,
   info,
 }) => {
-  console.log(tooltipsText);
-
   return (
     <>
       <div className="relative inline-block group">

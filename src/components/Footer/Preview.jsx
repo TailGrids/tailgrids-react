@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../Footer";
+import Footer from ".";
 import LinkGroup from "./LinkGroup";
 import NavLink from "./NavLink";
 
@@ -19,22 +19,22 @@ const Preview = () => {
       >
         {/* hoverColor="primary" available */}
         <LinkGroup header="Resources">
-          <NavLink src="/sass">SaaS Development</NavLink>
-          <NavLink src="/#">Our Products</NavLink>
-          <NavLink src="/#">User Flow</NavLink>
-          <NavLink src="/#">User Strategy</NavLink>
+          <NavLink LinkSrc="/sass">SaaS Development</NavLink>
+          <NavLink LinkSrc="/#">Our Products</NavLink>
+          <NavLink LinkSrc="/#">User Flow</NavLink>
+          <NavLink LinkSrc="/#">User Strategy</NavLink>
         </LinkGroup>
         <LinkGroup header="Company">
-          <NavLink src="/sass">About TailGrids</NavLink>
-          <NavLink src="/#">Contact & Support</NavLink>
-          <NavLink src="/#">Success History</NavLink>
-          <NavLink src="/#">Setting & Privacy</NavLink>
+          <NavLink LinkSrc="/sass">About TailGrids</NavLink>
+          <NavLink LinkSrc="/#">Contact & Support</NavLink>
+          <NavLink LinkSrc="/#">Success History</NavLink>
+          <NavLink LinkSrc="/#">Setting & Privacy</NavLink>
         </LinkGroup>
         <LinkGroup header="Quick Links">
-          <NavLink src="/sass">Premium Support</NavLink>
-          <NavLink src="/#">Our Services</NavLink>
-          <NavLink src="/#">Know Our Team</NavLink>
-          <NavLink src="/#">Download App</NavLink>
+          <NavLink LinkSrc="/sass">Premium Support</NavLink>
+          <NavLink LinkSrc="/#">Our Services</NavLink>
+          <NavLink LinkSrc="/#">Know Our Team</NavLink>
+          <NavLink LinkSrc="/#">Download App</NavLink>
         </LinkGroup>
       </Footer>
     </>

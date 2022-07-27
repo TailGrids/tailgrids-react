@@ -9,18 +9,22 @@ const Preview = () => {
         <Brand>
           <Image
             href="#"
+            Alt="Brand Image"
             imgSrc="https://cdn.tailgrids.com/1.0/assets/images/brands/graygrids.svg"
           />
           <Image
             href="#"
+            Alt="Brand Image"
             imgSrc="https://cdn.tailgrids.com/1.0/assets/images/brands/lineicons.svg"
           />
           <Image
             href="#"
+            Alt="Brand Image"
             imgSrc="https://cdn.tailgrids.com/1.0/assets/images/brands/uideck.svg"
           />
           <Image
             href="#"
+            Alt="Brand Image"
             imgSrc="https://cdn.tailgrids.com/1.0/assets/images/brands/ayroui.svg"
           />
         </Brand>

@@ -1,11 +1,11 @@
 import React from "react";
 
 const Forms = ({
-  logoSrc,
+  logoHref,
   children,
-  GoogleSrc,
-  TwitterSrc,
-  facebookSrcs,
+  GoogleHref,
+  TwitterHref,
+  facebookHref,
   SignUp,
 }) => {
   console.log(children);
@@ -19,7 +19,7 @@ const Forms = ({
               <div className="relative mx-auto max-w-[525px] overflow-hidden rounded-lg bg-white py-16 px-10 text-center sm:px-12 md:px-[60px]">
                 <div className="mb-10 text-center md:mb-16">
                   <a href="/#" className="mx-auto inline-block max-w-[160px]">
-                    <img src={logoSrc} alt="logo" />
+                    <img src={logoHref} alt="logo" />
                   </a>
                 </div>
                 <form>{children}</form>
@@ -27,7 +27,7 @@ const Forms = ({
                 <ul className="flex justify-between mb-12 -mx-2">
                   <li className="w-full px-2">
                     <a
-                      href={facebookSrcs}
+                      href={facebookHref}
                       className="flex h-11 items-center justify-center rounded-md bg-[#4064AC] hover:bg-opacity-90"
                     >
                       <svg
@@ -46,7 +46,7 @@ const Forms = ({
                   </li>
                   <li className="w-full px-2">
                     <a
-                      href={TwitterSrc}
+                      href={TwitterHref}
                       className="flex h-11 items-center justify-center rounded-md bg-[#1C9CEA] hover:bg-opacity-90"
                     >
                       <svg
@@ -65,7 +65,7 @@ const Forms = ({
                   </li>
                   <li className="w-full px-2">
                     <a
-                      href={GoogleSrc}
+                      href={GoogleHref}
                       className="flex h-11 items-center justify-center rounded-md bg-[#D64937] hover:bg-opacity-90"
                     >
                       <svg

@@ -12,7 +12,7 @@ const Cta = ({ subtitle, title, children, bgColor = "primary" }) => {
               <span className="mb-2 text-base font-semibold text-white">
                 {subtitle}
               </span>
-              <h2 className="mb-6 text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
+              <h2 className="mb-6 text-3xl w-[60%] font-bold leading-tight text-white sm:mb-8 sm:text-[38px] lg:mb-0">
                 {title}
               </h2>
             </div>

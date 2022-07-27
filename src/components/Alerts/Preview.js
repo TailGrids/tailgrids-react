@@ -1,5 +1,6 @@
 import React from "react";
-import Alerts from "../Alerts1";
+import Alerts from "../Alerts";
+import Button from "./Button";
 
 const Preview = () => {
   return (
@@ -19,15 +20,8 @@ const Preview = () => {
           body="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when"
         >
           <div className="flex mt-6">
-            <a
-              href="/#"
-              className="mr-6 inline-block text-sm font-medium text-[#f10e0e]"
-            >
-              View Details
-            </a>
-            <button className="text-sm font-medium text-body-color">
-              Vinish
-            </button>
+            <Button label="View Content" color="warning" href="/#" />
+            <Button label="Dismiss" href="/#" />
           </div>
         </Alerts>
         {/* Error Type */}
@@ -44,15 +38,8 @@ const Preview = () => {
           body="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when"
         >
           <div className="flex mt-6">
-            <a
-              href="/#"
-              className="mr-6 inline-block text-sm font-medium text-[#34D399]"
-            >
-              View Status
-            </a>
-            <button className="text-sm font-medium text-body-color">
-              Dismiss
-            </button>
+            <Button label="View Content" color="black" href="/#" />
+            <Button label="Dismiss" href="/#" />
           </div>
         </Alerts>
 

@@ -2,7 +2,6 @@ import React from "react";
 
 const ModalBody = ({
   setModalOpen,
-
   ModalViewDetails,
   viewDetailsSrc,
   modalClose,
@@ -13,10 +12,7 @@ const ModalBody = ({
   return (
     <>
       <div className="fixed top-0 left-0 flex items-center justify-center w-full h-full min-h-screen px-4 py-5 bg-black bg-opacity-90">
-        <div
-          //   @click.outside="modalOpen = false"
-          className="w-full max-w-[570px] rounded-[20px] bg-white py-12 px-8 text-center md:py-[60px] md:px-[70px]"
-        >
+        <div className="w-full max-w-[570px] rounded-[20px] bg-white py-12 px-8 text-center md:py-[60px] md:px-[70px]">
           <h3 className="pb-2 text-xl font-bold text-dark sm:text-2xl">
             {modalTitle}
           </h3>

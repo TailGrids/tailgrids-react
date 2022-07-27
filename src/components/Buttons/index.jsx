@@ -1,26 +1,59 @@
 import React from "react";
 
 const Button = ({
-  title = "Get Started",
-  color,
-  href,
+  roundedFull,
+  roundedLg,
+  roundedNone,
+  roundedSm,
+  roundedMd,
+  label,
+  color = "primary",
+  secondary,
+  gray,
+  dark,
+  warning,
+  danger,
+  success,
+  info,
   outline,
-  rounded,
-  pill,
 }) => {
   return (
     <>
       <a
-        href={href && href}
-        className={`hover:bg-${outline && color} hover:text-${
-          outline && "white"
-        } ${rounded && "rounded-md"} ${pill && "rounded-full"} bg-${
-          color && color && outline ? "transparent" : color
-        } border border-${outline ? color : "transparent"} text-${
-          outline ? color : "white"
-        } inline-flex items-center justify-center px-10 py-4 text-base font-normal text-center cursor-pointer hover:bg-opacity-90 lg:px-8 xl:px-10`}
+        href="/#"
+        class={` py-4 px-10 lg:px-8 xl:px-10 inline-flex items-center justify-center text-center text-base ${
+          outline ? `bg-none  ` : `bg-${color} text-white `
+        } hover:bg-opacity-90 font-normal  ${
+          (roundedLg && "rounded-lg") ||
+          (roundedFull && "rounded-full") ||
+          (roundedSm && "rounded-sm") ||
+          (roundedNone && "rounded-none") ||
+          (roundedMd && "rounded-md")
+        } border ${
+          (danger &&
+            outline &&
+            `border-danger  hover:border-danger hover:border-opacity-90 text-danger`) ||
+          (warning &&
+            outline &&
+            `border-warning  hover:border-warning  hover:border-opacity-90 text-warning`) ||
+          (success &&
+            outline &&
+            `border-success  hover:border-success  hover:border-opacity-90 text-success`) ||
+          (info &&
+            outline &&
+            `border-info  hover:border-info  hover:border-opacity-90 text-info`) ||
+          (dark &&
+            outline &&
+            `border-dark  hover:border-dark  hover:border-opacity-90 text-dark`) ||
+          (secondary &&
+            outline &&
+            `border-secondary  hover:border-secondary  hover:border-opacity-90 text-secondary`) ||
+          (gray &&
+            outline &&
+            `border-body-color  hover:border-body-color  hover:border-opacity-90 text-body-color`)
+        }`}
       >
-        {title}
+        {label}
       </a>
     </>
   );

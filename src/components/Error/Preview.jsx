@@ -7,7 +7,7 @@ const Preview = () => {
     <>
       <Error
         button="Go to Home"
-        buttonSrc="/#"
+        buttonHref="/#"
         title=" Oops! That page can't be found"
         details="The page you are looking for it maybe deleted"
       />

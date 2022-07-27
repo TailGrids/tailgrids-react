@@ -1,15 +1,13 @@
 import FAQ from "./components/FAQ";
 import Tabs from "./components/Tabs";
-import Portfolio from "./components/Portfolio";
-import Preview from "./components/Hero/Preview";
+import Preview from "./components/Tooltip/Preview";
 
 function App() {
   return (
     <>
-      {/* <Preview /> */}
+      <Preview />
       {/* <FAQ /> */}
       {/* <Tabs /> */}
-      {/* <Portfolio /> */}
     </>
   );
 }

@@ -1,16 +1,17 @@
 import React from "react";
-import Blogs from "../Blog1";
+import Blogs from "../Blog";
 import BlogCard from "./BlogCard";
+import SectionTitle from "./SectionTitle";
 
 const Preview = () => {
   return (
     <>
-      <Blogs
-        subtitle="Our Blogs"
-        title=" Our Recent News"
-        blogDescription="There are many variations of passages of Lorem Ipsum available
-         but the majority have suffered alteration in some form."
-      >
+      <Blogs>
+        <SectionTitle
+          subtitle="Our Blogs"
+          title=" Our Recent News"
+          blogDescription="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+        />
         <BlogCard
           date="Dec 22, 2023"
           CardTitle="Meet AutoManage, the best AI management tools"

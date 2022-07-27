@@ -22,8 +22,8 @@ let useClickOutside = (handler) => {
 // Handler hook for when Outside click dropdown close End Code====>>
 
 const Video = ({
-  iframeSrc,
-  bgImageSrc,
+  iframeHref,
+  bgImageHref,
   primary,
   secondary,
   warning,
@@ -46,7 +46,7 @@ const Video = ({
             <div className="relative z-20 h-[300px] overflow-hidden rounded-lg md:h-[450px]">
               <div className="absolute top-0 left-0 w-full h-full">
                 <img
-                  src={bgImageSrc}
+                  src={bgImageHref}
                   alt=""
                   className="object-cover object-center w-full h-full"
                 />
@@ -445,7 +445,7 @@ const Video = ({
         <div className="fixed top-0 left-0 z-50 flex items-center justify-center w-full h-screen bg-black bg-opacity-70">
           <div className="mx-auto w-full max-w-[550px] bg-white">
             <>
-              <iframe className="h-[320px] w-full" src={iframeSrc} />
+              <iframe className="h-[320px] w-full" src={iframeHref} />
             </>
           </div>
 

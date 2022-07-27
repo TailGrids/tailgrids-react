@@ -1,6 +1,6 @@
 import React from "react";
 
-const Elements = ({
+const Element = ({
   level,
   active,
   disabled,
@@ -122,4 +122,4 @@ const Elements = ({
   );
 };
 
-export default Elements;
+export default Element;

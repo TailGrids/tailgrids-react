@@ -1,6 +1,6 @@
 import React from "react";
 
-const Error = ({ button, buttonSrc, details, title }) => {
+const Error = ({ button, buttonHref, details, title }) => {
   return (
     <>
       <section className="relative z-10 bg-primary py-[120px]">
@@ -16,7 +16,7 @@ const Error = ({ button, buttonSrc, details, title }) => {
                 </h4>
                 <p className="mb-8 text-lg text-white">{details}</p>
                 <a
-                  href={buttonSrc}
+                  href={buttonHref}
                   className="inline-block px-8 py-3 text-base font-semibold text-center text-white transition border border-white rounded-lg hover:bg-white hover:text-primary"
                 >
                   {button}

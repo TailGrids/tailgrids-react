@@ -9,6 +9,7 @@ const Progress = ({
   danger,
   success,
   info,
+  value = "50",
 }) => {
   return (
     <>
@@ -61,7 +62,7 @@ const Progress = ({
                             (warning && `bg-warning`)
                           }  bg-primary`}
                         />
-                        50%
+                        {value}%
                       </span>
                     </div>
                   </div>
@@ -79,7 +80,7 @@ const Progress = ({
                         (warning && `bg-warning`)
                       }  bg-primary`}
                     >
-                      50%
+                      {value}%
                     </div>
                   </div>
                 )}
