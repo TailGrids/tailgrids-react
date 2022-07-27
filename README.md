@@ -37,6 +37,9 @@ module.exports = {
 ```
 To learn more, check out the [TailGrids React Docs](https://tailgrids.com/docs/react).
 
+[![tailwind-react](https://cdn.tailgrids.com/tailwind-react-tailgrids.svg)](https://github.com/TailGrids/tailgrids-react)
+
+
 ## 👥 Community
 #### [💬 Chat Us on Discord](https://pimjo.com/discord)
 #### [🙌 Let's Connect on Twitter](https://twitter.com/tailgrids)
