@@ -1,13 +1,11 @@
-import FAQ from "./components/FAQ";
 import Tabs from "./components/Tabs";
-import Preview from "./components/Tooltip/Preview";
+import Preview from "./components/Faq/Preview";
 
 function App() {
   return (
     <>
-      <Preview />
-      {/* <FAQ /> */}
-      {/* <Tabs /> */}
+      {/* <Preview /> */}
+      <Tabs />
     </>
   );
 }
