@@ -6,7 +6,41 @@ TailGrids React comes with all the essential UI components and elements you need
 
 So, if you're already familiar with Tailwind CSS and looking for a well-designed **React UI library**, TailGrids is the perfect choice.
 
+### [🚀 Explore All Components](https://tailgrids.com/components)
+
+### [🌏 Visit Website](https://tailgrids.com)
+
+### [📃 Documentation](https://tailgrids.com/docs)
+
+# Getting Started
+### Installing via NPM
+
+As a NPM package make sure that you have installed [Node.js](https://nodejs.org) and [Tailwind CSS](https://tailwindcss.com)
+
+1. Install TailGrids React as a dependency using NPM by running the command below:
+
+```
+npm i tailgrids-react
+```
+
+2. Require TailGrids as a plugin inside the `tailwind.config.js` file:
+
+```
+module.exports = {
+  //... other config of your project
+
+  plugins: [
+    require('tailgrids/plugin')
+  ]
+
+}
+```
+
 To learn more, check out the [TailGrids React Docs](https://tailgrids.com/docs/react).
+
+## TailGrids-React : Tailwind CSS + React UI Components
+
+[![sneak-peek](https://cdn.tailgrids.com/tailgrids-components.svg)](https://tailgrids.com/components)
 
 ## 👥 Community
 #### [💬 Chat Us on Discord](https://pimjo.com/discord)
@@ -14,13 +48,9 @@ To learn more, check out the [TailGrids React Docs](https://tailgrids.com/docs/r
 
 ## 💙 Support
 
-You can always support this project and inspire us by [Starring🌟 This Repository](https://github.com/TailGrids/tailwind-ui-components)
-and sharing with friends. If you like the the library consider purchasing the [Pro version](https://tailgrids.com/pricing)
+You can always support this project and inspire us by **Starring🌟 This Repository**
+and sharing with friends. If you like the the library consider purchasing the [Pro version](https://tailgrids.com/pricing) to get access to all free and premium components.
 
 ## 🎁 License
 
-TailGrids Core Version is 100% Free! and open-source you can use it with your personal or commercial projects.
-
-## UI Components
-
-[![sneak-peek](https://cdn.tailgrids.com/tailgrids-components.svg)](https://tailgrids.com/components)
+TailGrids React is 100% Free! and open-source you can use it with your personal or commercial projects.
