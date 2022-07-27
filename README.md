@@ -35,6 +35,8 @@ module.exports = {
 
 }
 ```
+To learn more, check out the [TailGrids React Docs](https://tailgrids.com/docs/react).
+
 ## 👥 Community
 #### [💬 Chat Us on Discord](https://pimjo.com/discord)
 #### [🙌 Let's Connect on Twitter](https://twitter.com/tailgrids)
@@ -42,13 +44,11 @@ module.exports = {
 ## 💙 Support
 
 You can always support this project and inspire us by **Starring🌟 This Repository**
-and sharing with friends. If you like the the library consider purchasing the [Pro version](https://tailgrids.com/pricing) to get access to all free and premium components.
+and sharing with friends. If you like the the library consider purchasing [**⚡ TailGtids Pro**](https://tailgrids.com/pricing) to get access to all available premium components.
 
 ## 🎁 License
 
-TailGrids React is 100% Free! and open-source you can use it with your personal or commercial projects.
-
-To learn more, check out the [TailGrids React Docs](https://tailgrids.com/docs/react).
+TailGrids React is **100% Free! and open-source** so you can use it with your personal or commercial projects also redistribute with your projects.
 
 ## TailGrids-React : Tailwind CSS + React UI Components
 
