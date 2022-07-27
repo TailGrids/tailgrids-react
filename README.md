@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Tailwind CSS Components for React - TailGrids React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TailGrids React is **Tailwind UI Components for React** Web Projects. This version is free open-source **TailGrids Core that coded specifically for React**, so anyone can use TailGrids Tailwind CSS components with your React projects flawlessly.
 
-## Available Scripts
+TailGrids React comes with all the essential UI components and elements you need to kickstart a new web project based on ReactJS and Tailwind CSS. This entire React + Tailwind CSS UI library - is coded using Tailwind CSS utility classes and crafted in a way that will provide the best possible developer experience. 
 
-In the project directory, you can run:
+So, if you're already familiar with Tailwind CSS and looking for a well-designed **React UI library**, TailGrids is the perfect choice.
 
-### `yarn start`
+### [🚀 Explore All Components](https://tailgrids.com/components)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### [🌏 Visit Website](https://tailgrids.com)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### [📃 Documentation](https://tailgrids.com/docs)
 
-### `yarn test`
+# Getting Started
+### Installing via NPM
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As a NPM package make sure that you have installed [Node.js](https://nodejs.org) and [Tailwind CSS](https://tailwindcss.com)
 
-### `yarn build`
+1. Install TailGrids React as a dependency using NPM by running the command below:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm i tailgrids-react
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Require TailGrids as a plugin inside the `tailwind.config.js` file:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+module.exports = {
+  //... other config of your project
 
-### `yarn eject`
+  plugins: [
+    require('tailgrids/plugin')
+  ]
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+}
+```
+To learn more, check out the [TailGrids React Docs](https://tailgrids.com/docs/react).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[![tailwind-react](https://cdn.tailgrids.com/tailwind-react-tailgrids.svg)](https://github.com/TailGrids/tailgrids-react)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 👥 Community
+#### [💬 Chat Us on Discord](https://pimjo.com/discord)
+#### [🙌 Let's Connect on Twitter](https://twitter.com/tailgrids)
 
-## Learn More
+## 💙 Support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can always support this project and inspire us by **Starring🌟 This Repository**
+and sharing with friends. If you like the the library consider purchasing [**⚡ TailGtids Pro**](https://tailgrids.com/pricing) to get access to all available premium components.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎁 License
 
-### Code Splitting
+TailGrids React is **100% Free! and open-source** so you can use it with your personal or commercial projects also redistribute with your projects.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## TailGrids-React : Tailwind CSS + React UI Components
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![sneak-peek](https://cdn.tailgrids.com/tailgrids-components.svg)](https://tailgrids.com/components)
