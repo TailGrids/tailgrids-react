@@ -1,4 +1,4 @@
-import Preview from "./components/Tabs/Preview";
+import Preview from "./components/Tooltip/Preview";
 
 function App() {
   return (
