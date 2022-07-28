@@ -15,7 +15,7 @@ const Tooltip = ({
 }) => {
   return (
     <>
-      <div class="mb-14">
+      <div>
         <div class="group relative inline-block">
           <button
             class={`inline-flex rounded bg-primary ${
