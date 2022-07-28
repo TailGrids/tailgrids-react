@@ -1,11 +1,9 @@
-import Tabs from "./components/Tabs";
-import Preview from "./components/Faq/Preview";
+import Preview from "./components/Tabs/Preview";
 
 function App() {
   return (
     <>
-      {/* <Preview /> */}
-      <Tabs />
+      <Preview />
     </>
   );
 }
