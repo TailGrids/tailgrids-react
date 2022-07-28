@@ -1,5 +1,6 @@
 import React from "react";
 import Switch from "../Switch";
+import Checkbox from "./Checkbox";
 
 const Preview = () => {
   return (
@@ -15,12 +16,11 @@ const Preview = () => {
           <Switch toggleSeven />
           <Switch toggleEight />
           <Switch toggleNine />
-          <Switch checkboxLabelFive />
-          <Switch checkboxLabelOne />
-          <Switch checkboxLabelThree />
-          <Switch checkboxLabelFour />
-          <Switch checkboxLabelTwo />
-          <Switch checkboxLabelFour />
+          <Checkbox text="checked" checkboxLabelFive />
+          <Checkbox text="checked" checkboxLabelOne />
+          <Checkbox text="checked" checkboxLabelThree />
+          <Checkbox text="checked" checkboxLabelFour />
+          <Checkbox text="checked" checkboxLabelTwo />
         </div>
       </div>
     </>

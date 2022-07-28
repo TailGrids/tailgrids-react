@@ -1,4 +1,4 @@
-import Preview from "./components/Tooltip/Preview";
+import Preview from "./components/Switch/Preview";
 
 function App() {
   return (

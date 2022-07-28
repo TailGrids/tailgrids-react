@@ -4,7 +4,7 @@ import Tooltip from ".";
 const Preview = () => {
   return (
     <>
-      <div className="container py-20">
+      <div className="container my-28">
         <div className="grid grid-cols-2 gap-12 md:grid-cols-3">
           <Tooltip position="bottom" primary tooltipsText="ToolTip Text">
             ToolTip On Top
