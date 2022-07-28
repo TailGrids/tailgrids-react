@@ -3,7 +3,7 @@ import React from "react";
 const Tooltip = ({
   children,
   tooltipsText,
-  primary = "bg-primary",
+  primary,
   secondary,
   gray,
   dark,

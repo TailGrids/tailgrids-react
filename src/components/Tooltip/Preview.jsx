@@ -6,7 +6,7 @@ const Preview = () => {
     <>
       <div className="container py-20">
         <div className="grid grid-cols-2 gap-12 md:grid-cols-3">
-          <Tooltip position="bottom" tooltipsText="ToolTip Text">
+          <Tooltip position="bottom" primary tooltipsText="ToolTip Text">
             ToolTip On Top
           </Tooltip>
           <Tooltip position="top" dark tooltipsText="ToolTip Text">
