@@ -10,31 +10,19 @@ So, if you're already familiar with Tailwind CSS and looking for a well-designed
 
 ### [🌏 Visit Website](https://tailgrids.com)
 
-### [📃 Documentation](https://tailgrids.com/docs)
+### [📃 Documentation](https://tailgrids.com/docs/react)
 
 # Getting Started
 ### Installing via NPM
 
 As a NPM package make sure that you have installed [Node.js](https://nodejs.org) and [Tailwind CSS](https://tailwindcss.com)
 
-1. Install TailGrids React as a dependency using NPM by running the command below:
+Install TailGrids React as a dependency using NPM by running the command below:
 
 ```
 npm i tailgrids-react
 ```
 
-2. Require TailGrids as a plugin inside the `tailwind.config.js` file:
-
-```
-module.exports = {
-  //... other config of your project
-
-  plugins: [
-    require('tailgrids/plugin')
-  ]
-
-}
-```
 To learn more, check out the [TailGrids React Docs](https://tailgrids.com/docs/react).
 
 [![tailwind-react](https://cdn.tailgrids.com/tailwind-react-tailgrids.svg)](https://github.com/TailGrids/tailgrids-react)
