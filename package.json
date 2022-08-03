@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-lib": "rollup -c"
   },
-  "author": "Shafiq Hammad",
+  "author": "TailGrids Team",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.10",
@@ -30,5 +30,5 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
