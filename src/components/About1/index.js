@@ -7,7 +7,7 @@ const index = ({
   subtitle,
   title,
   description,
-  button,
+  buttonText,
 }) => {
   return (
     <>
@@ -612,7 +612,7 @@ const index = ({
               href="/#"
               className="inline-flex items-center justify-center px-10 py-4 text-base font-normal text-center text-white rounded-lg bg-primary hover:bg-opacity-90 lg:px-8 xl:px-10"
             >
-              {button}
+              {buttonText}
             </a>
           </div>
         </div>

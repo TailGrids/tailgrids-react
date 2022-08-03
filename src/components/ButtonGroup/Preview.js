@@ -1,0 +1,125 @@
+import React from "react";
+import ButtonGroup from "./index";
+
+const Preview = () => {
+  return (
+    <>
+      <section className="container">
+        <div className="grid grid-cols-3 gap-12 mt-20">
+          <ButtonGroup
+            primary
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          <ButtonGroup
+            success
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          <ButtonGroup
+            warning
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          <ButtonGroup
+            danger
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          <ButtonGroup
+            info
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          <ButtonGroup
+            roundedFull
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          <ButtonGroup
+            roundedFull
+            success
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          <ButtonGroup
+            roundedFull
+            warning
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          <ButtonGroup
+            roundedFull
+            danger
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          <ButtonGroup
+            roundedFull
+            info
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          {/*  */}
+          <ButtonGroup
+            withIcon
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          <ButtonGroup
+            withIcon
+            roundedLg
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          <ButtonGroup
+            withIcon
+            roundedLg
+            info
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          <ButtonGroup
+            withIcon
+            roundedLg
+            danger
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          <ButtonGroup
+            withIcon
+            roundedLg
+            success
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+          <ButtonGroup
+            withIcon
+            roundedLg
+            warning
+            button1="About"
+            button2="Profile"
+            button3="Service"
+          />
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default Preview;

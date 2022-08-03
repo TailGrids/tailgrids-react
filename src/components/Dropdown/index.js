@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import SubMenu from "./SubMenu";
 
 // Handler hook for when Outside click dropdown close
 let useClickOutside = (handler) => {

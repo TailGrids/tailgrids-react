@@ -1,6 +1,5 @@
 import React from "react";
 import Alerts from "../Alerts";
-import Button from "./Button";
 
 const Preview = () => {
   return (
@@ -16,14 +15,11 @@ const Preview = () => {
           type="warning"
           borderLeft
           background
+          dismissible
           title="Attention needed"
           body="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when"
-        >
-          <div className="flex mt-6">
-            <Button label="View Content" color="warning" href="/#" />
-            <Button label="Dismiss" href="/#" />
-          </div>
-        </Alerts>
+        />
+
         {/* Error Type */}
         <Alerts
           type="error"
@@ -35,15 +31,11 @@ const Preview = () => {
         <Alerts
           type="success"
           title="Attention needed"
+          dismissible
           body="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when"
-        >
-          <div className="flex mt-6">
-            <Button label="View Content" color="black" href="/#" />
-            <Button label="Dismiss" href="/#" />
-          </div>
-        </Alerts>
+        />
 
-        {/* success alart with border right and background  */}
+        {/* success alert with border right and background  */}
         <Alerts
           type="success"
           background
