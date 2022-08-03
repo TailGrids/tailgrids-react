@@ -1,7 +1,6 @@
 {
-  "name": "tailgrids-react-npm-test",
-  "version": "1.0.8",
-  "description": "A simple react component that accepts a list of password requirements and updates each as they are fulfilled",
+  "name": "tailgrids-react",
+  "description": "Handcrafted Library of Tailwind CSS UI Components & Blocks Ready to use Tailwind CSS UI Components, Blocks, Sections, and Templates. Choose from 400+ diverse UI components, copy-paste UI components code, and build your unique web app user-interface, landing page, website, or template faster.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
