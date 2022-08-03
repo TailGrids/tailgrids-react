@@ -1,0 +1,26 @@
+name: 🚀 tailgrids react release
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  release:
+    name: 🚀 tailgrids react release
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📚 checkout
+        uses: actions/checkout@v2
+      - name: 🟢 node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org
+      - name: installing packages
+        run: npm ci
+      - name: 🚀 publish
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN_TAILGRIDSREACT}}
