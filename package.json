@@ -1,6 +1,6 @@
 {
   "name": "tailgrids-react",
-  "description": "Free Tailwind CSS React Components based on TailGrids Core, comes with all essential UI components and elements you need to kickstart Tailwind + React web projects.",
+  "description": "Tailwind CSS React Components based on TailGrids Core, comes with all essential UI components and elements you need to kickstart Tailwind + React web projects.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
@@ -12,7 +12,8 @@
   "license": "MIT",
     "keywords": [
     "component-library",
-    "react-components"
+    "tailwind-react",
+    "react-components",
     "ui-components",
     "tailwind",
     "tailwindcss",
@@ -32,7 +33,10 @@
     "react-sections",
     "tailgrids",
     "tailwind-ui",
-    "tailwind-sections"
+    "tailwind-sections",
+    "tailgrids-react",
+    "design-system"
+
   ],
   "devDependencies": {
     "@babel/core": "^7.12.10",
