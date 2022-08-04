@@ -4,6 +4,8 @@ TailGrids React is **Tailwind UI Components for React** Web Projects. This versi
 
 TailGrids React comes with all the essential UI components and elements you need to kickstart a new web project based on ReactJS and Tailwind CSS. This entire React + Tailwind CSS UI library - is coded using Tailwind CSS utility classes and crafted in a way that will provide the best possible developer experience. 
 
+[![tailgrids-react](https://cdn.tailgrids.com/tailgrids-react.png)](https://github.com/TailGrids/tailgrids-react)
+
 So, if you're already familiar with Tailwind CSS and looking for a well-designed **React UI library**, TailGrids is the perfect choice.
 
 ### [🚀 Explore All Components](https://tailgrids.com/components)
@@ -25,7 +27,8 @@ npm i tailgrids-react
 
 To learn more, check out the [TailGrids React Docs](https://tailgrids.com/docs/react). (coming soon)
 
-[![tailwind-react](https://cdn.tailgrids.com/tailwind-react-tailgrids.svg)](https://github.com/TailGrids/tailgrids-react)
+## TailGrids-React : Tailwind CSS + React UI Components
+[![sneak-peek](https://cdn.tailgrids.com/tailgrids-components.svg)](https://tailgrids.com/components)
 
 
 ## 👥 Community
@@ -41,6 +44,4 @@ and sharing with friends. If you like the the library consider purchasing [**⚡
 
 TailGrids React is **100% Free! and open-source** so you can use it with your personal or commercial projects also redistribute with your projects.
 
-## TailGrids-React : Tailwind CSS + React UI Components
 
-[![sneak-peek](https://cdn.tailgrids.com/tailgrids-components.svg)](https://tailgrids.com/components)
