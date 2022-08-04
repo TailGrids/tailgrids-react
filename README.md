@@ -10,7 +10,7 @@ So, if you're already familiar with Tailwind CSS and looking for a well-designed
 
 ### [🌏 Visit Website](https://tailgrids.com)
 
-### [📃 Documentation](https://tailgrids.com/docs/react)
+### [📃 Documentation](https://tailgrids.com/docs/react) (coming soon)
 
 # Getting Started
 ### Installing via NPM
@@ -23,7 +23,7 @@ Install TailGrids React as a dependency using NPM by running the command below:
 npm i tailgrids-react
 ```
 
-To learn more, check out the [TailGrids React Docs](https://tailgrids.com/docs/react).
+To learn more, check out the [TailGrids React Docs](https://tailgrids.com/docs/react). (coming soon)
 
 [![tailwind-react](https://cdn.tailgrids.com/tailwind-react-tailgrids.svg)](https://github.com/TailGrids/tailgrids-react)
 
@@ -35,7 +35,7 @@ To learn more, check out the [TailGrids React Docs](https://tailgrids.com/docs/r
 ## 💙 Support
 
 You can always support this project and inspire us by **Starring🌟 This Repository**
-and sharing with friends. If you like the the library consider purchasing [**⚡ TailGtids Pro**](https://tailgrids.com/pricing) to get access to all available premium components.
+and sharing with friends. If you like the the library consider purchasing [**⚡ TailGrids Pro**](https://tailgrids.com/pricing) to get access to all available premium components.
 
 ## 🎁 License
 
