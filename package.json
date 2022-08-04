@@ -1,14 +1,39 @@
 {
   "name": "tailgrids-react",
-  "description": "Handcrafted Library of Tailwind CSS UI Components & Blocks Ready to use Tailwind CSS UI Components, Blocks, Sections, and Templates. Choose from 400+ diverse UI components, copy-paste UI components code, and build your unique web app user-interface, landing page, website, or template faster.",
+  "description": "Free Tailwind CSS React Components based on TailGrids Core, comes with all essential UI components and elements you need to kickstart Tailwind + React web projects.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-lib": "rollup -c"
   },
-  "author": "TailGrids Team",
+  "author": "TailGrids Team <hello@tailgrids.com> (https://tailgrids.com/)",
+  "homepage": "https://tailgrids.com/",
   "license": "MIT",
+    "keywords": [
+    "component-library",
+    "react-components"
+    "ui-components",
+    "tailwind",
+    "tailwindcss",
+    "tailwind-css",
+    "reactjs",
+    "tailwindui",
+    "tailwind-ui",
+    "tailwind-blocks",
+    "css",
+    "react",
+    "react-ui",
+    "components",
+    "react-ui",
+    "react-ui-components",
+    "blocks",
+    "react-blocks",
+    "react-sections",
+    "tailgrids",
+    "tailwind-ui",
+    "tailwind-sections"
+  ],
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-react": "^7.12.10",
@@ -30,5 +55,5 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
