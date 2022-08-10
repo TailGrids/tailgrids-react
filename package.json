@@ -9,6 +9,13 @@
   },
   "author": "TailGrids Team <hello@tailgrids.com> (https://tailgrids.com/)",
   "homepage": "https://tailgrids.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TailGrids/tailgrids-react"
+  },
+  "bugs": {
+    "url": "https://github.com/TailGrids/tailgrids-react/issues"
+  },
   "license": "MIT",
   "keywords": [
     "component-library",
@@ -58,5 +65,5 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "version": "0.1.4"
+  "version": "0.1.5"
 }
