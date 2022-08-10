@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProtfolioHeader = ({ subtitle, title, description }) => {
+const PortfolioHeader = ({ subtitle, title, description }) => {
   return (
     <>
       <div className="flex flex-wrap -mx-4">
@@ -20,4 +20,4 @@ const ProtfolioHeader = ({ subtitle, title, description }) => {
   );
 };
 
-export default ProtfolioHeader;
+export default PortfolioHeader;

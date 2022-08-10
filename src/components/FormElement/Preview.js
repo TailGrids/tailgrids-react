@@ -54,7 +54,7 @@ const Preview = () => {
               level="Default Input"
             />
             <FormElement
-              Options
+              select
               defaultValue=""
               placeholder="Default Input"
               disabled

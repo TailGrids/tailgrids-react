@@ -10,7 +10,7 @@ const FormElement = ({
   input,
   textArea,
   fileInput,
-  Options,
+  select,
   rows = "5",
   children,
 }) => {
@@ -98,7 +98,7 @@ const FormElement = ({
         </div>
       )}
 
-      {Options && (
+      {select && (
         <div className="w-full px-4 lg:w-5/12">
           <div className="mb-12">
             <label

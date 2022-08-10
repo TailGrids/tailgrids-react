@@ -6,16 +6,16 @@ const Preview = () => {
   return (
     <>
       <Dropdown Button="Dropdown Button">
-        <DropdownItem menu="Dashboard" />
-        <DropdownItem menu="Preview" />
-        <DropdownItem menu="Button" />
-        <DropdownItem menu="Subscribe" />
+        <DropdownItem href="#" label="Dashboard" />
+        <DropdownItem href="#" label="Preview" />
+        <DropdownItem href="#" label="Button" />
+        <DropdownItem href="#" label="Subscribe" />
       </Dropdown>
       <Dropdown bgColor="warning" dropColor="white" Button="Dropdown Button">
-        <DropdownItem menu="Dashboard" />
-        <DropdownItem menu="Preview" />
-        <DropdownItem menu="Button" />
-        <DropdownItem menu="Subscribe" />
+        <DropdownItem href="#" label="Dashboard" />
+        <DropdownItem href="#" label="Preview" />
+        <DropdownItem href="#" label="Button" />
+        <DropdownItem href="#" label="Subscribe" />
       </Dropdown>
     </>
   );

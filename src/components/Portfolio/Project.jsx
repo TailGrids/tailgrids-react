@@ -2,7 +2,7 @@ import React from "react";
 
 const Project = ({
   showCard,
-  catagory,
+  category,
   ImageHref,
   title,
   button,
@@ -12,7 +12,7 @@ const Project = ({
     <>
       <div
         className={`w-full px-4 md:w-1/2 xl:w-1/3 ${
-          showCard === "all" || showCard === catagory.toLowerCase()
+          showCard === "all" || showCard === category.toLowerCase()
             ? "block"
             : "hidden"
         }`}
@@ -23,7 +23,7 @@ const Project = ({
           </div>
           <div className="relative z-10 px-3 -mt-20 text-center bg-white rounded-lg shadow-lg mx-7 py-9">
             <span className="block mb-2 text-sm font-semibold text-primary">
-              {catagory}
+              {category}
             </span>
             <h3 className="mb-4 text-xl font-bold text-dark">{title}</h3>
             <a

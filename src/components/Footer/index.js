@@ -9,7 +9,6 @@ const Footer = ({
   youtubeLink,
   twitterLink,
   facebookLink,
-  title,
   copyright,
 }) => {
   return (
@@ -50,7 +49,7 @@ const Footer = ({
               <div className="w-full px-4 sm:w-1/2 lg:w-3/12">
                 <div className="w-full mb-10">
                   <h4 className="text-lg font-semibold mb-9 text-dark">
-                    {title}
+                    Follow Us
                   </h4>
                   <div className="flex items-center mb-6">
                     <a

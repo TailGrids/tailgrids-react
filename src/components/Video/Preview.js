@@ -3,7 +3,7 @@ import Video from "./index";
 
 const Preview = () => {
   return (
-    <div className="container space-y-12 my-28">
+    <div className="container my-28">
       <Video
         primary
         bgImageHref="https://i.ibb.co/KbSwcWJ/image-01-1.jpg"

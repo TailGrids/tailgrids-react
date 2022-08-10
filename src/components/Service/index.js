@@ -1,10 +1,10 @@
 import React from "react";
 
-const Services = ({ children, subtitle, title, description }) => {
+const Service = ({ children, subtitle, title, description }) => {
   return (
     <>
       <>
-        {/* ====== Services Section Start */}
+        {/* ====== Service Section Start */}
         <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
           <div className="container">
             <div className="flex flex-wrap -mx-4">
@@ -23,10 +23,10 @@ const Services = ({ children, subtitle, title, description }) => {
             <div className="flex flex-wrap -mx-4">{children}</div>
           </div>
         </section>
-        {/* ====== Services Section End */}
+        {/* ====== Service Section End */}
       </>
     </>
   );
 };
 
-export default Services;
+export default Service;

@@ -4,7 +4,7 @@ const Card = ({
   image,
   Button,
   CardDescription,
-  CartTitle,
+  CardTitle,
   titleHref,
   btnHref,
 }) => {
@@ -19,7 +19,7 @@ const Card = ({
               href={titleHref}
               className="mb-4 block text-xl font-semibold text-dark hover:text-primary sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
             >
-              {CartTitle}
+              {CardTitle}
             </a>
           </h3>
           <p className="text-base leading-relaxed mb-7 text-body-color">

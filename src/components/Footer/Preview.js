@@ -11,7 +11,6 @@ const Preview = () => {
         description="Sed ut perspiciatis undmnis is iste natus error sit amet voluptatem totam rem aperiam."
         phone="+012 (345) 678 99"
         copyright="© 2025 TailGrids"
-        title="Follow us On"
         facebookLink="/#"
         twitterLink="/#"
         youtubeLink="/#"
