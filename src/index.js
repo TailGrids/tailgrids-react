@@ -13,7 +13,7 @@ import Card from "./components/Card";
 import Contact from "./components/Contact";
 import ContactContent from "./components/Contact/ContactContent";
 import ContactInputBox from "./components/Contact/ContactInputBox";
-import contactSubmitButton from "./components/Contact/ContactSubmitButton";
+import ContactSubmitButton from "./components/Contact/ContactSubmitButton";
 import ContactTextArea from "./components/Contact/ContactTextArea";
 import Cookies1 from "./components/Cookies1";
 import Cookies2 from "./components/Cookies2";
@@ -79,7 +79,7 @@ export {
   ContactContent,
   ContactInputBox,
   ContactTextArea,
-  contactSubmitButton,
+  ContactSubmitButton,
   Cookies1,
   Cookies2,
   Cookies4,
