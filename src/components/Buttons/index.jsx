@@ -21,9 +21,9 @@ const Button = ({
     <>
       <a
         href="/#"
-        class={` py-4 px-10 lg:px-8 xl:px-10 inline-flex items-center justify-center text-center text-base ${
+        className={` inline-flex items-center justify-center px-7 py-4 text-center text-base ${
           outline ? `bg-none  ` : `bg-${color} text-white `
-        } hover:bg-opacity-90 font-normal  ${
+        } font-normal hover:bg-opacity-90  ${
           (roundedLg && "rounded-lg") ||
           (roundedFull && "rounded-full") ||
           (roundedSm && "rounded-sm") ||
@@ -32,25 +32,25 @@ const Button = ({
         } border ${
           (danger &&
             outline &&
-            `border-danger  hover:border-danger hover:border-opacity-90 text-danger`) ||
+            `border-danger  hover:border-danger text-danger hover:border-opacity-90`) ||
           (warning &&
             outline &&
-            `border-warning  hover:border-warning  hover:border-opacity-90 text-warning`) ||
+            `border-warning  hover:border-warning  text-warning hover:border-opacity-90`) ||
           (success &&
             outline &&
-            `border-success  hover:border-success  hover:border-opacity-90 text-success`) ||
+            `border-success  text-success  hover:border-success hover:border-opacity-90`) ||
           (info &&
             outline &&
-            `border-info  hover:border-info  hover:border-opacity-90 text-info`) ||
+            `border-info  hover:border-info  text-info hover:border-opacity-90`) ||
           (dark &&
             outline &&
-            `border-dark  hover:border-dark  hover:border-opacity-90 text-dark`) ||
+            `border-dark  text-dark  hover:border-dark hover:border-opacity-90`) ||
           (secondary &&
             outline &&
-            `border-secondary  hover:border-secondary  hover:border-opacity-90 text-secondary`) ||
+            `border-secondary  text-secondary  hover:border-secondary hover:border-opacity-90`) ||
           (gray &&
             outline &&
-            `border-body-color  hover:border-body-color  hover:border-opacity-90 text-body-color`)
+            `border-body-color  text-body-color  hover:border-body-color hover:border-opacity-90`)
         }`}
       >
         {label}

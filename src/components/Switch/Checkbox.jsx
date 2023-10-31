@@ -15,7 +15,7 @@ const Checkbox = ({
         <div className="w-full px-4 md:w-1/2 lg:w-1/3">
           <label
             htmlFor="checkboxLabelOne"
-            className="flex items-center cursor-pointer select-none"
+            className="flex cursor-pointer select-none items-center"
           >
             <div className="relative">
               <input
@@ -23,7 +23,7 @@ const Checkbox = ({
                 id="checkboxLabelOne"
                 className="sr-only"
               />
-              <div className="flex items-center justify-center w-5 h-5 mr-4 border rounded box">
+              <div className="box mr-4 flex h-5 w-5 items-center justify-center rounded border">
                 <span className="dot h-[10px] w-[10px] rounded" />
               </div>
             </div>
@@ -36,7 +36,7 @@ const Checkbox = ({
         <div className="w-full px-4 md:w-1/2 lg:w-1/3">
           <label
             htmlFor="checkboxLabelTwo"
-            className="flex items-center cursor-pointer select-none"
+            className="flex cursor-pointer select-none items-center"
           >
             <div className="relative">
               <input
@@ -44,7 +44,7 @@ const Checkbox = ({
                 id="checkboxLabelTwo"
                 className="sr-only"
               />
-              <div className="flex items-center justify-center w-5 h-5 mr-4 border rounded box">
+              <div className="box mr-4 flex h-5 w-5 items-center justify-center rounded border">
                 <span className="opacity-0">
                   <svg
                     width={11}
@@ -72,7 +72,7 @@ const Checkbox = ({
         <div className="w-full px-4 md:w-1/2 lg:w-1/3">
           <label
             htmlFor="checkboxLabelThree"
-            className="flex items-center cursor-pointer select-none"
+            className="flex cursor-pointer select-none items-center"
           >
             <div className="relative">
               <input
@@ -80,8 +80,8 @@ const Checkbox = ({
                 id="checkboxLabelThree"
                 className="sr-only"
               />
-              <div className="flex items-center justify-center w-5 h-5 mr-4 border rounded box">
-                <span className="opacity-0 text-primary">
+              <div className="box mr-4 flex h-5 w-5 items-center justify-center rounded border">
+                <span className="text-primary opacity-0">
                   <svg
                     className="h-[14px] w-[14px] stroke-current"
                     fill="none"
@@ -107,7 +107,7 @@ const Checkbox = ({
         <div className="w-full px-4 md:w-1/2 lg:w-1/3">
           <label
             htmlFor="checkboxLabelFour"
-            className="flex items-center cursor-pointer select-none"
+            className="flex cursor-pointer select-none items-center"
           >
             <div className="relative">
               <input
@@ -115,7 +115,7 @@ const Checkbox = ({
                 id="checkboxLabelFour"
                 className="sr-only"
               />
-              <div className="flex items-center justify-center w-5 h-5 mr-4 border rounded-full box">
+              <div className="box mr-4 flex h-5 w-5 items-center justify-center rounded-full border">
                 <span className="h-[10px] w-[10px] rounded-full bg-transparent"></span>
               </div>
             </div>
@@ -128,7 +128,7 @@ const Checkbox = ({
         <div className="w-full px-4 md:w-1/2 lg:w-1/3">
           <label
             htmlFor="checkboxLabelFive"
-            className="flex items-center cursor-pointer select-none"
+            className="flex cursor-pointer select-none items-center"
           >
             <div className="relative">
               <input
@@ -136,7 +136,7 @@ const Checkbox = ({
                 id="checkboxLabelFive"
                 className="sr-only"
               />
-              <div className="flex items-center justify-center w-5 h-5 mr-4 border rounded-full box border-primary">
+              <div className="box mr-4 flex h-5 w-5 items-center justify-center rounded-full border border-primary">
                 <span className="h-[10px] w-[10px] rounded-full bg-white"></span>
               </div>
             </div>

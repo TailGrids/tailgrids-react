@@ -38,14 +38,14 @@ const Dropdown = ({
     <>
       {/* <!-- ====== Dropdowns Section Start --> */}
       <div className="container">
-        <div className="flex flex-wrap -mx-4">
+        <div className="-mx-4 flex flex-wrap">
           {/* one */}
           <div ref={domNode} className="w-full px-4 sm:w-1/2 lg:w-1/4">
             <div className="py-8 text-center">
-              <div className="relative inline-block mb-8 text-left">
+              <div className="relative mb-8 inline-block text-left">
                 <button
                   onClick={() => setDropdownOpen(!dropdownOpen)}
-                  className={`flex items-center px-5 py-3 text-base font-semibold text-white rounded bg-${bgColor}`}
+                  className={`flex items-center rounded px-5 py-3 text-base font-semibold text-white bg-${bgColor}`}
                 >
                   {Button}
                   <span className="pl-2">
@@ -67,8 +67,8 @@ const Dropdown = ({
                 <div
                   className={`absolute left-0 z-40 mt-2 w-full rounded border-[.5px] border-light bg-${dropColor} py-5 shadow-card transition-all ${
                     dropdownOpen
-                      ? "top-full opacity-100 visible"
-                      : "top-[110%] invisible opacity-0"
+                      ? "visible top-full opacity-100"
+                      : "invisible top-[110%] opacity-0"
                   }`}
                 >
                   {children}

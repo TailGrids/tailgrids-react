@@ -17,11 +17,12 @@ const Badges = ({
   roundedSm,
   roundedMd,
   label,
+  bgOpacity,
 }) => {
   return (
     <>
       <span
-        className={`inline-block px-3 py-1  text-sm font-semibold  ${
+        className={`inline-block px-3 py-1 text-sm font-semibold  ${
           (primary &&
             `${
               outline
@@ -30,14 +31,16 @@ const Badges = ({
                     (roundedLg && `rounded-lg`) ||
                     (roundedNone && `rounded-none`) ||
                     (roundedSm && `rounded-sm`) ||
-                    (roundedMd && `rounded-md`)
+                    (roundedMd && `rounded-md`) ||
+                    (bgOpacity && `bg-opacity-5`)
                   } border-primary text-primary`
                 : `bg-primary ${
                     (roundedFull && `rounded-full`) ||
                     (roundedLg && `rounded-lg`) ||
                     (roundedNone && `rounded-none`) ||
                     (roundedSm && `rounded-sm`) ||
-                    (roundedMd && `rounded-md`)
+                    (roundedMd && `rounded-md`) ||
+                    (bgOpacity && `bg-opacity-5`)
                   } text-white`
             }`) ||
           (secondary &&
@@ -189,7 +192,7 @@ const Badges = ({
         {label}
       </span>
     </>
-  );
+  )
 };
 
 export default Badges;

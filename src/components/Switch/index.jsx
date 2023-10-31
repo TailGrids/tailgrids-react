@@ -19,12 +19,12 @@ const Switch = ({
         <div className=" w-fit">
           <label
             htmlFor="toggleTwo"
-            className="flex items-center cursor-pointer select-none"
+            className="flex cursor-pointer select-none items-center"
           >
             <div className="relative">
               <input type="checkbox" id="toggleTwo" className="sr-only" />
               <div className="block h-8 w-14 rounded-full bg-[#E5E7EB]" />
-              <div className="absolute w-6 h-6 transition bg-white rounded-full dot left-1 top-1" />
+              <div className="dot absolute left-1 top-1 h-6 w-6 rounded-full bg-white transition" />
             </div>
           </label>
         </div>
@@ -33,12 +33,12 @@ const Switch = ({
         <div className="w-fit">
           <label
             htmlFor="toogleTwo"
-            className="flex items-center cursor-pointer select-none"
+            className="flex cursor-pointer select-none items-center"
           >
             <div className="relative">
               <input id="toogleTwo" type="checkbox" className="sr-only" />
               <div className="h-5 w-14 rounded-full bg-[#E5E7EB] shadow-inner" />
-              <div className="absolute left-0 transition bg-white rounded-full dot -top-1 h-7 w-7 shadow-switch-1" />
+              <div className="dot absolute -top-1 left-0 h-7 w-7 rounded-full bg-white shadow-switch-1 transition" />
             </div>
           </label>
         </div>
@@ -47,13 +47,13 @@ const Switch = ({
         <div className="w-fit">
           <label
             htmlFor="toggleThree"
-            className="flex items-center cursor-pointer select-none"
+            className="flex cursor-pointer select-none items-center"
           >
             <div className="relative">
               <input type="checkbox" id="toggleThree" className="sr-only" />
               <div className="block h-8 w-14 rounded-full bg-[#E5E7EB]" />
-              <div className="absolute flex items-center justify-center w-6 h-6 transition bg-white rounded-full dot left-1 top-1">
-                <span className="hidden active">
+              <div className="dot absolute left-1 top-1 flex h-6 w-6 items-center justify-center rounded-full bg-white transition">
+                <span className="active hidden">
                   <svg
                     width={11}
                     height={8}
@@ -71,7 +71,7 @@ const Switch = ({
                 </span>
                 <span className="inactive text-body-color">
                   <svg
-                    className="w-4 h-4 stroke-current"
+                    className="h-4 w-4 stroke-current"
                     fill="none"
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
@@ -93,12 +93,12 @@ const Switch = ({
         <div className="w-fit">
           <label
             htmlFor="toggleFour"
-            className="flex items-center cursor-pointer select-none"
+            className="flex cursor-pointer select-none items-center"
           >
             <div className="relative">
               <input type="checkbox" id="toggleFour" className="sr-only" />
-              <div className="block h-8 rounded-full box w-14 bg-dark" />
-              <div className="absolute flex items-center justify-center w-6 h-6 transition bg-white rounded-full dot left-1 top-1" />
+              <div className="box block h-8 w-14 rounded-full bg-dark" />
+              <div className="dot absolute left-1 top-1 flex h-6 w-6 items-center justify-center rounded-full bg-white transition" />
             </div>
           </label>
         </div>
@@ -107,12 +107,12 @@ const Switch = ({
         <div className="w-fit">
           <label
             htmlFor="toggleFive"
-            className="flex items-center cursor-pointer select-none"
+            className="flex cursor-pointer select-none items-center"
           >
             <div className="relative">
               <input id="toggleFive" type="checkbox" className="sr-only" />
               <div className="h-5 w-14 rounded-full bg-[#E5E7EB] shadow-inner" />
-              <div className="absolute left-0 flex items-center justify-center transition bg-white rounded-full dot -top-1 h-7 w-7 shadow-switch-1">
+              <div className="dot absolute -top-1 left-0 flex h-7 w-7 items-center justify-center rounded-full bg-white shadow-switch-1 transition">
                 <span className="active h-4 w-4 rounded-full bg-[#E5E7EB]" />
               </div>
             </div>
@@ -123,12 +123,12 @@ const Switch = ({
         <div className="w-fit">
           <label
             htmlFor="toggleSix"
-            className="flex items-center cursor-pointer select-none"
+            className="flex cursor-pointer select-none items-center"
           >
             <div className="relative">
               <input type="checkbox" id="toggleSix" className="sr-only" />
-              <div className="block h-8 rounded-full box w-14 bg-primary" />
-              <div className="absolute flex items-center justify-center w-6 h-6 transition bg-white rounded-full dot left-1 top-1" />
+              <div className="box block h-8 w-14 rounded-full bg-primary" />
+              <div className="dot absolute left-1 top-1 flex h-6 w-6 items-center justify-center rounded-full bg-white transition" />
             </div>
           </label>
         </div>
@@ -137,12 +137,12 @@ const Switch = ({
         <div className="w-fit">
           <label
             htmlFor="toggleSeven"
-            className="flex items-center cursor-pointer select-none"
+            className="flex cursor-pointer select-none items-center"
           >
             <div className="relative">
               <input type="checkbox" id="toggleSeven" className="sr-only" />
               <div className="block h-8 w-14 rounded-full border border-[#BFCEFF] bg-[#EAEEFB]" />
-              <div className="absolute w-6 h-6 transition rounded-full dot left-1 top-1 bg-primary" />
+              <div className="dot absolute left-1 top-1 h-6 w-6 rounded-full bg-primary transition" />
             </div>
           </label>
         </div>
@@ -151,13 +151,13 @@ const Switch = ({
         <div className="w-fit">
           <label
             htmlFor="toggleEight"
-            className="flex items-center cursor-pointer select-none"
+            className="flex cursor-pointer select-none items-center"
           >
             <div className="relative">
               <input id="toggleEight" type="checkbox" className="sr-only" />
-              <div className="h-5 transition rounded-full shadow-inner box w-14 bg-dark" />
-              <div className="absolute left-0 flex items-center justify-center transition bg-white rounded-full dot -top-1 h-7 w-7 shadow-switch-1">
-                <span className="w-4 h-4 bg-white border rounded-full active border-dark" />
+              <div className="box h-5 w-14 rounded-full bg-dark shadow-inner transition" />
+              <div className="dot absolute -top-1 left-0 flex h-7 w-7 items-center justify-center rounded-full bg-white shadow-switch-1 transition">
+                <span className="active h-4 w-4 rounded-full border border-dark bg-white" />
               </div>
             </div>
           </label>
@@ -167,13 +167,13 @@ const Switch = ({
         <div className="w-fit">
           <label
             htmlFor="toggleNine"
-            className="flex items-center cursor-pointer select-none"
+            className="flex cursor-pointer select-none items-center"
           >
             <div className="relative">
               <input type="checkbox" id="toggleNine" className="sr-only" />
               <div className="block h-8 w-14 rounded-full bg-[#EAEEFB]" />
-              <div className="absolute flex items-center justify-center w-6 h-6 transition bg-white rounded-full dot left-1 top-1">
-                <span className="w-3 h-3 rounded-full bg-primary" />
+              <div className="dot absolute left-1 top-1 flex h-6 w-6 items-center justify-center rounded-full bg-white transition">
+                <span className="h-3 w-3 rounded-full bg-primary" />
               </div>
             </div>
           </label>
