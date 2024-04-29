@@ -16,17 +16,56 @@ So, if you're already familiar with Tailwind CSS and looking for a well-designed
 
 # Getting Started
 
-### Installing via NPM
+**Step #1:** Install Tailwind CSS and generate the config file.
 
-As a NPM package make sure that you have installed [Node.js](https://nodejs.org) and [Tailwind CSS](https://tailwindcss.com)
+Open the command terminal, then run the code below ( Skip this step if you have already set up Tailwind CSS in your project )
 
-Install TailGrids React as a dependency using NPM by running the command below:
-
+```shellscript copy
+npm install -D tailwindcss
+npx tailwindcss init
 ```
-npm i tailgrids-react
+
+**Step #2:** Install TailGrids
+
+Next, install TailGrids by running the following command:
+
+```shellscript copy
+npm i tailgrids
 ```
 
-To learn more, check out the [TailGrids React Docs](https://tailgrids.com/docs/react).
+**Step #3:** Update the Configuration
+
+Now, update your tailwind.config.js file to include the TailGrids plugin. Add the following code snippet:
+
+```javascript filename="tailwind.config.js" showLineNumbers copy
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [require("tailgrids/plugin")],
+};
+```
+
+**Step #4**: Add Tailwind CSS directives to your CSS.
+
+Create a CSS file named `**index.css**` in the **/src** directory. Then, include this code at the top of the file.
+
+```css copy
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+**Step #5:** Start the build process
+
+Finally, start the build process for your React project:
+
+```shellscript copy
+npm run start
+```
+
+That's it! Browse and start using the [TailGrids React component](/components/react-link) in your React project.
 
 ## TailGrids-React : Tailwind CSS + React UI Components
 
