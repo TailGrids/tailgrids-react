@@ -40,7 +40,7 @@ export default function FileUpload3() {
             </label>
             <div className="absolute left-1/2 top-0 -z-10 -translate-x-1/2 dark:opacity-30">
               <img
-                src="./images/file-upload/grid-shape-1.svg"
+                src="https://cdn.tailgrids.com/2.2/assets/core-components/images/file-upload/grid-shape-1.svg"
                 alt="grid-shape-1"
               />
             </div>

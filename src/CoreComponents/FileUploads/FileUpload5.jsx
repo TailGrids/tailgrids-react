@@ -45,7 +45,7 @@ export default function FileUpload5() {
             </label>
             <div className="absolute -top-7 left-1/2 -z-10 -translate-x-1/2 dark:opacity-20">
               <img
-                src="./images/file-upload/grid-shape-1.svg"
+                src="https://cdn.tailgrids.com/2.2/assets/core-components/images/file-upload/grid-shape-1.svg"
                 alt="grid-shape-1"
               />
             </div>
