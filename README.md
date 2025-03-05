@@ -26,6 +26,12 @@ Install TailGrids React as a dependency using NPM by running the command below:
 npm i tailgrids-react
 ```
 
+Now Add TailGrids plugin to your `index.css` file.
+
+```css copy
+@plugin 'tailgrids/plugin';
+```
+
 To learn more, check out the [TailGrids React Docs](https://tailgrids.com/docs/react).
 
 ## TailGrids-React : Tailwind CSS + React UI Components
