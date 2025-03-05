@@ -68,7 +68,7 @@ const Cookies2 = () => {
                   </button>
                   <button
                     onClick={handleHide}
-                    className="inline-flex h-12 w-12 items-center justify-center rounded bg-white/10 text-center  text-base font-semibold text-white shadow-card hover:bg-opacity-10"
+                    className="inline-flex h-12 w-12 items-center justify-center rounded-sm bg-white/10 text-center  text-base font-semibold text-white shadow-card hover:bg-white/5"
                   >
                     <svg
                       width="20"

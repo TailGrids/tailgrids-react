@@ -20,7 +20,7 @@ const Contact = () => {
                   enim adiqua minim veniam quis nostrud exercitation ullamco
                 </p>
                 <div className="mb-8 flex w-full max-w-[370px]">
-                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
+                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded-sm bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
                     <svg
                       width="32"
                       height="32"
@@ -45,7 +45,7 @@ const Contact = () => {
                 </div>
 
                 <div className="mb-8 flex w-full max-w-[370px]">
-                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
+                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded-sm bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
                     <svg
                       width="32"
                       height="32"
@@ -85,7 +85,7 @@ const Contact = () => {
                 </div>
 
                 <div className="mb-8 flex w-full max-w-[370px]">
-                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
+                  <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded-sm bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
                     <svg
                       width="32"
                       height="32"
@@ -137,7 +137,7 @@ const Contact = () => {
                   <div>
                     <button
                       type="submit"
-                      className="w-full rounded border border-primary bg-primary p-3 text-white transition hover:bg-opacity-90"
+                      className="w-full rounded-sm border border-primary bg-primary p-3 text-white transition hover:bg-primary/90"
                     >
                       Send Message
                     </button>
@@ -970,7 +970,7 @@ const ContactTextArea = ({ row, placeholder, name, defaultValue }) => {
           rows={row}
           placeholder={placeholder}
           name={name}
-          className="w-full resize-none rounded border border-stroke px-[14px] py-3 text-base text-body-color outline-none focus:border-primary dark:border-dark-3 dark:bg-dark dark:text-dark-6"
+          className="w-full resize-none rounded-sm border border-stroke px-[14px] py-3 text-base text-body-color outline-hidden focus:border-primary dark:border-dark-3 dark:bg-dark dark:text-dark-6"
           defaultValue={defaultValue}
         />
       </div>
@@ -986,7 +986,7 @@ const ContactInputBox = ({ type, placeholder, name }) => {
           type={type}
           placeholder={placeholder}
           name={name}
-          className="w-full rounded border border-stroke px-[14px] py-3 text-base text-body-color outline-none focus:border-primary dark:border-dark-3 dark:bg-dark dark:text-dark-6"
+          className="w-full rounded-sm border border-stroke px-[14px] py-3 text-base text-body-color outline-hidden focus:border-primary dark:border-dark-3 dark:bg-dark dark:text-dark-6"
         />
       </div>
     </>

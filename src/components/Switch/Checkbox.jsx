@@ -23,8 +23,8 @@ const Checkbox = ({
                 id="checkboxLabelOne"
                 className="sr-only"
               />
-              <div className="box mr-4 flex h-5 w-5 items-center justify-center rounded border">
-                <span className="dot h-[10px] w-[10px] rounded" />
+              <div className="box mr-4 flex h-5 w-5 items-center justify-center rounded-sm border">
+                <span className="dot h-[10px] w-[10px] rounded-sm" />
               </div>
             </div>
             {text}
@@ -44,7 +44,7 @@ const Checkbox = ({
                 id="checkboxLabelTwo"
                 className="sr-only"
               />
-              <div className="box mr-4 flex h-5 w-5 items-center justify-center rounded border">
+              <div className="box mr-4 flex h-5 w-5 items-center justify-center rounded-sm border">
                 <span className="opacity-0">
                   <svg
                     width={11}
@@ -80,7 +80,7 @@ const Checkbox = ({
                 id="checkboxLabelThree"
                 className="sr-only"
               />
-              <div className="box mr-4 flex h-5 w-5 items-center justify-center rounded border">
+              <div className="box mr-4 flex h-5 w-5 items-center justify-center rounded-sm border">
                 <span className="text-primary opacity-0">
                   <svg
                     className="h-[14px] w-[14px] stroke-current"

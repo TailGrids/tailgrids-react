@@ -29,12 +29,12 @@ const Error = () => {
         </div>
 
         <div className="absolute left-0 top-0 -z-10 flex h-full w-full items-center justify-between space-x-5 md:space-x-8 lg:space-x-14">
-          <div className="h-full w-1/3 bg-gradient-to-t from-[#FFFFFF14] to-[#C4C4C400]"></div>
+          <div className="h-full w-1/3 bg-linear-to-t from-[#FFFFFF14] to-[#C4C4C400]"></div>
           <div className="flex h-full w-1/3">
-            <div className="h-full w-1/2 bg-gradient-to-b from-[#FFFFFF14] to-[#C4C4C400]"></div>
-            <div className="h-full w-1/2 bg-gradient-to-t from-[#FFFFFF14] to-[#C4C4C400]"></div>
+            <div className="h-full w-1/2 bg-linear-to-b from-[#FFFFFF14] to-[#C4C4C400]"></div>
+            <div className="h-full w-1/2 bg-linear-to-t from-[#FFFFFF14] to-[#C4C4C400]"></div>
           </div>
-          <div className="h-full w-1/3 bg-gradient-to-b from-[#FFFFFF14] to-[#C4C4C400]"></div>
+          <div className="h-full w-1/3 bg-linear-to-b from-[#FFFFFF14] to-[#C4C4C400]"></div>
         </div>
       </section>
     </>

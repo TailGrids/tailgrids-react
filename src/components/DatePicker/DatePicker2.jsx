@@ -117,7 +117,7 @@ export default function DatePicker2() {
             <input
               type="text"
               placeholder="Pick a date"
-              className="h-12 w-full appearance-none rounded-lg border border-stroke bg-white pl-12 pr-4 text-dark outline-none focus:border-primary dark:border-dark-3 dark:bg-dark-2 dark:text-white"
+              className="h-12 w-full appearance-none rounded-lg border border-stroke bg-white pl-12 pr-4 text-dark outline-hidden focus:border-primary dark:border-dark-3 dark:bg-dark-2 dark:text-white"
               value={updateInput()}
               onClick={toggleDatepicker}
               readOnly
@@ -182,7 +182,7 @@ export default function DatePicker2() {
           </div>
 
           {isOpen && (
-            <div className="shadow-xs flex w-full flex-col rounded-lg border border-stroke bg-white px-4 py-6 sm:px-6 sm:py-[30px] dark:border-dark-3 dark:bg-dark-2">
+            <div className="shadow-2xs flex w-full flex-col rounded-lg border border-stroke bg-white px-4 py-6 sm:px-6 sm:py-[30px] dark:border-dark-3 dark:bg-dark-2">
               <div className="flex items-center justify-between pb-2">
                 <p className="text-base font-medium text-dark dark:text-white">
                   {currentDate.toLocaleString("default", {
@@ -199,7 +199,7 @@ export default function DatePicker2() {
                         ),
                       )
                     }
-                    className="flex h-[30px] w-[30px] cursor-pointer items-center justify-center rounded border-[.5px] border-stroke bg-gray-2 text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:bg-dark dark:text-white"
+                    className="flex h-[30px] w-[30px] cursor-pointer items-center justify-center rounded-sm border-[.5px] border-stroke bg-gray-2 text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:bg-dark dark:text-white"
                   >
                     <svg
                       width="16"
@@ -220,7 +220,7 @@ export default function DatePicker2() {
                         ),
                       )
                     }
-                    className="flex h-[30px] w-[30px] cursor-pointer items-center justify-center rounded border-[.5px] border-stroke bg-gray-2 text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:bg-dark dark:text-white"
+                    className="flex h-[30px] w-[30px] cursor-pointer items-center justify-center rounded-sm border-[.5px] border-stroke bg-gray-2 text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:bg-dark dark:text-white"
                   >
                     <svg
                       width="16"
@@ -256,10 +256,10 @@ export default function DatePicker2() {
               </div>
 
               <div className="flex items-center justify-center space-x-3 pt-4 sm:space-x-4">
-                <button className="h-[37px] rounded border border-stroke bg-transparent px-5 text-sm font-medium text-body-color hover:border-primary focus:border-primary dark:border-dark-3 dark:text-dark-6">
+                <button className="h-[37px] rounded-sm border border-stroke bg-transparent px-5 text-sm font-medium text-body-color hover:border-primary focus:border-primary dark:border-dark-3 dark:text-dark-6">
                   {selectedStartDate}
                 </button>
-                <button className="h-[37px] rounded border border-stroke bg-transparent px-5 text-sm font-medium text-body-color hover:border-primary focus:border-primary dark:border-dark-3 dark:text-dark-6">
+                <button className="h-[37px] rounded-sm border border-stroke bg-transparent px-5 text-sm font-medium text-body-color hover:border-primary focus:border-primary dark:border-dark-3 dark:text-dark-6">
                   {selectedEndDate}
                 </button>
               </div>

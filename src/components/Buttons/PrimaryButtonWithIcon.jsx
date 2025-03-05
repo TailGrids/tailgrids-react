@@ -2,7 +2,7 @@ import React from 'react'
 
 const PrimaryButtonWithIcon = () => {
   return (
-    <button className='bg-primary inline-flex items-center justify-center py-3 px-6 text-center text-base font-medium text-white hover:bg-opacity-90'>
+    <button className='bg-primary inline-flex items-center justify-center py-3 px-6 text-center text-base font-medium text-white hover:bg-primary/90'>
       <span className='mr-[10px]'>
         <svg width='20' height='20' viewBox='0 0 20 20' className='fill-current'>
           <path

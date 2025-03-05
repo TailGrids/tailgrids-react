@@ -41,14 +41,14 @@ const Video = () => {
                 />
               </div>
               <div
-                className={`absolute left-0 top-0 z-10 flex h-full w-full items-center justify-center bg-primary bg-opacity-90`}
+                className={`absolute left-0 top-0 z-10 flex h-full w-full items-center justify-center bg-primary/90`}
               >
                 <a
                   href="/#"
                   onClick={() => setvideoOpen(true)}
                   className="absolute z-20 flex h-20 w-20 items-center justify-center rounded-full bg-white text-primary dark:bg-dark-2 dark:text-white md:h-[100px] md:w-[100px]"
                 >
-                  <span className="absolute right-0 top-0 z-[-1] h-full w-full animate-ping rounded-full bg-white bg-opacity-20 delay-300 duration-1000"></span>
+                  <span className="absolute right-0 top-0 z-[-1] h-full w-full animate-ping rounded-full bg-white/20 delay-300 duration-1000"></span>
                   <svg
                     width="23"
                     height="27"
@@ -424,7 +424,7 @@ const Video = () => {
       </div>
 
       {videoOpen && (
-        <div className="fixed left-0 top-0 z-50 flex h-screen w-full items-center justify-center bg-black bg-opacity-70">
+        <div className="fixed left-0 top-0 z-50 flex h-screen w-full items-center justify-center bg-black/70">
           <div className="mx-auto w-full max-w-[550px] bg-white">
             <>
               <iframe

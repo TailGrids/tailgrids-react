@@ -29,7 +29,7 @@ const Signin = () => {
                   <input
                     type="submit"
                     value="Sign In"
-                    className="w-full cursor-pointer rounded-md border border-primary bg-primary px-5 py-3 text-base font-medium text-white transition hover:bg-opacity-90"
+                    className="w-full cursor-pointer rounded-md border border-primary bg-primary px-5 py-3 text-base font-medium text-white transition hover:bg-primary/90"
                   />
                 </div>
               </form>
@@ -40,7 +40,7 @@ const Signin = () => {
                 <li className="w-full px-2">
                   <a
                     href="javascript:void(0)"
-                    className="flex h-11 items-center justify-center rounded-md bg-[#4064AC] hover:bg-opacity-90"
+                    className="flex h-11 items-center justify-center rounded-md bg-[#4064AC] hover:bg-[#4064AC]/90"
                   >
                     <svg
                       width="10"
@@ -59,7 +59,7 @@ const Signin = () => {
                 <li className="w-full px-2">
                   <a
                     href="javascript:void(0)"
-                    className="flex h-11 items-center justify-center rounded-md bg-[#1C9CEA] hover:bg-opacity-90"
+                    className="flex h-11 items-center justify-center rounded-md bg-[#1C9CEA] hover:bg-[#1C9CEA]/90"
                   >
                     <svg
                       width="22"
@@ -78,7 +78,7 @@ const Signin = () => {
                 <li className="w-full px-2">
                   <a
                     href="javascript:void(0)"
-                    className="flex h-11 items-center justify-center rounded-md bg-[#D64937] hover:bg-opacity-90"
+                    className="flex h-11 items-center justify-center rounded-md bg-[#D64937] hover:bg-[#D64937]/90"
                   >
                     <svg
                       width="18"
@@ -346,7 +346,7 @@ const InputBox = ({ type, placeholder, name }) => {
         type={type}
         placeholder={placeholder}
         name={name}
-        className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-body-color outline-none focus:border-primary focus-visible:shadow-none dark:border-dark-3 dark:text-white"
+        className="w-full rounded-md border border-stroke bg-transparent px-5 py-3 text-base text-body-color outline-hidden focus:border-primary focus-visible:shadow-none dark:border-dark-3 dark:text-white"
       />
     </div>
   );

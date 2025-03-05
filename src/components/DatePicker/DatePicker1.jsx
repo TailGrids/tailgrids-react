@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 export default function DatePicker1() {
   const [currentDate, setCurrentDate] = useState(new Date());
@@ -98,7 +98,7 @@ export default function DatePicker1() {
               id="datepicker"
               type="text"
               placeholder="Pick a date"
-              className="h-12 w-full appearance-none rounded-lg border border-stroke bg-white pl-12 pr-4 text-dark outline-none focus:border-primary dark:border-dark-3 dark:bg-dark-2 dark:text-white"
+              className="h-12 w-full appearance-none rounded-lg border border-stroke bg-white pl-12 pr-4 text-dark outline-hidden focus:border-primary dark:border-dark-3 dark:bg-dark-2 dark:text-white"
               value={selectedDate || ""}
               readOnly
               onClick={handleToggleCalendar}
@@ -255,7 +255,7 @@ export default function DatePicker1() {
               <div className="flex items-center space-x-3 pt-4 sm:space-x-5">
                 <button
                   id="cancelBtn"
-                  className="flex h-[50px] w-full items-center justify-center rounded-md bg-dark text-base font-medium text-white hover:bg-opacity-90"
+                  className="flex h-[50px] w-full items-center justify-center rounded-md bg-dark text-base font-medium text-white hover:bg-dark/90"
                   onClick={handleCancel}
                 >
                   Remove

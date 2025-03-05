@@ -33,13 +33,13 @@ const Tooltip = ({
           <div
             className={` ${
               (position === 'right' &&
-                `absolute left-full top-1/2 z-20 ml-3 -translate-y-1/2 whitespace-nowrap rounded  py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100`) ||
+                `absolute left-full top-1/2 z-20 ml-3 -translate-y-1/2 whitespace-nowrap rounded-sm  py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100`) ||
               (position === 'top' &&
-                `absolute bottom-full left-1/2 z-20 mb-3 -translate-x-1/2 whitespace-nowrap rounded  py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100`) ||
+                `absolute bottom-full left-1/2 z-20 mb-3 -translate-x-1/2 whitespace-nowrap rounded-sm  py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100`) ||
               (position === 'left' &&
-                `absolute right-full top-1/2 z-20 mr-3 -translate-y-1/2 whitespace-nowrap rounded  py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100`) ||
+                `absolute right-full top-1/2 z-20 mr-3 -translate-y-1/2 whitespace-nowrap rounded-sm  py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100`) ||
               (position === 'bottom' &&
-                `absolute top-full left-1/2 z-20 mt-3 -translate-x-1/2 whitespace-nowrap rounded  py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100`)
+                `absolute top-full left-1/2 z-20 mt-3 -translate-x-1/2 whitespace-nowrap rounded-sm  py-[6px] px-4 text-sm font-semibold text-white opacity-0 group-hover:opacity-100`)
             }   ${
               (primary ? `bg-dark` : ``) ||
               (secondary && `bg-secondary`) ||
@@ -54,13 +54,13 @@ const Tooltip = ({
             <span
               className={` ${
                 (position === 'right' &&
-                  `absolute left-[-3px] top-1/2 -z-10 h-2 w-2 -translate-y-1/2 rotate-45 rounded-sm`) ||
+                  `absolute left-[-3px] top-1/2 -z-10 h-2 w-2 -translate-y-1/2 rotate-45 rounded-xs`) ||
                 (position === 'top' &&
-                  `absolute bottom-[-3px] left-1/2 -z-10 h-2 w-2 -translate-x-1/2 rotate-45 rounded-sm`) ||
+                  `absolute bottom-[-3px] left-1/2 -z-10 h-2 w-2 -translate-x-1/2 rotate-45 rounded-xs`) ||
                 (position === 'left' &&
-                  `absolute right-[-3px] top-1/2 -z-10 h-2 w-2 -translate-y-1/2 rotate-45 rounded-sm`) ||
+                  `absolute right-[-3px] top-1/2 -z-10 h-2 w-2 -translate-y-1/2 rotate-45 rounded-xs`) ||
                 (position === 'bottom' &&
-                  `absolute top-[-3px] left-1/2 -z-10 h-2 w-2 -translate-x-1/2 rotate-45 rounded-sm`)
+                  `absolute top-[-3px] left-1/2 -z-10 h-2 w-2 -translate-x-1/2 rotate-45 rounded-xs`)
               }    ${
                 (primary ? `bg-dark` : ``) ||
                 (secondary && `bg-secondary`) ||

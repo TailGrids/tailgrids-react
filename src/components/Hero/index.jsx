@@ -9,7 +9,7 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-5/12">
               <div className="hero-content">
-                <h1 className="mb-5 text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
+                <h1 className="mb-5 text-4xl font-bold leading-[1.208]! text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
                   Kickstart Startup Website with TailGrids
                 </h1>
                 <p className="mb-8 max-w-[480px] text-base text-body-color dark:text-dark-6">
@@ -208,7 +208,7 @@ const Navbar = () => {
 
               <a
                 href="/#"
-                className="rounded-lg bg-primary px-7 py-3 text-base font-medium text-white hover:bg-opacity-90"
+                className="rounded-lg bg-primary px-7 py-3 text-base font-medium text-white hover:bg-primary/90"
               >
                 Sign Up
               </a>

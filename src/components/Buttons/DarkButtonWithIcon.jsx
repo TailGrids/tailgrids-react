@@ -2,7 +2,7 @@ import React from 'react'
 
 const DarkButtonWithIcon = () => {
   return (
-    <button className='inline-flex items-center justify-center bg-black py-3 px-6 text-center text-base font-medium text-white hover:bg-opacity-90'>
+    <button className='inline-flex items-center justify-center bg-black py-3 px-6 text-center text-base font-medium text-white hover:bg-black/90'>
       <span className='mr-[10px]'>
         <svg
           width='20'

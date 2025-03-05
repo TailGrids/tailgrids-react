@@ -25,8 +25,8 @@ export default OrderedList3;
 const ListItem = ({ count, text }) => {
   return (
     <li className="flex text-base text-body-color dark:text-dark-6">
-      <span className="relative z-10 mr-2.5 flex h-[26px] w-full max-w-[26px] items-center justify-center rounded text-base text-white">
-        <span className="absolute left-0 top-0 z-[-1] h-full w-full -rotate-45 rounded bg-primary"></span>
+      <span className="relative z-10 mr-2.5 flex h-[26px] w-full max-w-[26px] items-center justify-center rounded-sm text-base text-white">
+        <span className="absolute left-0 top-0 z-[-1] h-full w-full -rotate-45 rounded-sm bg-primary"></span>
         {count}
       </span>
       {text}

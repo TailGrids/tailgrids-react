@@ -2,7 +2,7 @@ import React from 'react'
 
 const SecondarySemiRoundedButtonWithIcon = () => {
   return (
-    <button className='bg-secondary inline-flex items-center justify-center rounded-[5px] py-3 px-6 text-center text-base font-medium text-white hover:bg-opacity-90'>
+    <button className='bg-secondary inline-flex items-center justify-center rounded-[5px] py-3 px-6 text-center text-base font-medium text-white hover:bg-secondary/90'>
       <span className='mr-[10px]'>
         <svg
           width='20'

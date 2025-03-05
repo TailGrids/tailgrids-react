@@ -164,7 +164,7 @@ export default function DatePicker3() {
                     id="datepicker"
                     type="text"
                     placeholder="Pick a date"
-                    className="w-full rounded-lg border border-stroke bg-transparent py-2.5 pl-[50px] pr-8 text-dark-2 outline-none transition focus:border-primary dark:border-dark-3 dark:text-dark-6 dark:focus:border-primary"
+                    className="w-full rounded-lg border border-stroke bg-transparent py-2.5 pl-[50px] pr-8 text-dark-2 outline-hidden transition focus:border-primary dark:border-dark-3 dark:text-dark-6 dark:focus:border-primary"
                     value={selectedDate || ""}
                     readOnly
                     onClick={handleToggleCalendar}

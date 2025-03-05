@@ -5,7 +5,7 @@ const Cta = () => {
     <>
       <section className="bg-white py-20 dark:bg-dark lg:py-[120px]">
         <div className="container mx-auto">
-          <div className="relative z-10 overflow-hidden rounded bg-primary px-8 py-12 md:p-[70px]">
+          <div className="relative z-10 overflow-hidden rounded-sm bg-primary px-8 py-12 md:p-[70px]">
             <div className="-mx-4 flex flex-wrap items-center">
               <div className="w-full px-4 lg:w-1/2">
                 <span className="mb-4 block text-base font-medium text-white">
@@ -26,7 +26,7 @@ const Cta = () => {
                   </a>
                   <a
                     href="javascript:void(0)"
-                    className="my-1 inline-flex rounded-md bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-opacity-90"
+                    className="my-1 inline-flex rounded-md bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-secondary/90"
                   >
                     Start Free Trial
                   </a>

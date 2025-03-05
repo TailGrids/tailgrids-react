@@ -45,7 +45,7 @@ const Dropdown = ({
               <div className="relative mb-8 inline-block text-left">
                 <button
                   onClick={() => setDropdownOpen(!dropdownOpen)}
-                  className={`flex items-center rounded px-5 py-3 text-base font-semibold text-white bg-${bgColor}`}
+                  className={`flex items-center rounded-sm px-5 py-3 text-base font-semibold text-white bg-${bgColor}`}
                 >
                   {Button}
                   <span className="pl-2">

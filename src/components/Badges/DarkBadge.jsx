@@ -41,7 +41,7 @@ const BadgesItem = ({
               (roundedFull && `rounded-full`) ||
               (roundedLg && `rounded-lg`) ||
               (roundedNone && `rounded-none`) ||
-              (roundedSm && `rounded-sm`) ||
+              (roundedSm && `rounded-xs`) ||
               (roundedMd && `rounded-md`) ||
               (bgOpacity && `bg-dark/5`)
             } border-dark text-dark`
@@ -49,7 +49,7 @@ const BadgesItem = ({
               (roundedFull && `rounded-full`) ||
               (roundedLg && `rounded-lg`) ||
               (roundedNone && `rounded-none`) ||
-              (roundedSm && `rounded-sm`) ||
+              (roundedSm && `rounded-xs`) ||
               (roundedMd && `rounded-md`) ||
               (bgOpacity && `bg-dark/5`)
             } text-white`

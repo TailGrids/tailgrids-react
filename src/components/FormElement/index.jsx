@@ -16,7 +16,7 @@ const FormElements = () => {
               <input
                 type="text"
                 placeholder="Default Input"
-                className="w-full rounded-md border border-stroke bg-transparent px-5 py-[10px] text-dark-6 outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:border-gray-2 disabled:bg-gray-2 dark:border-dark-3"
+                className="w-full rounded-md border border-stroke bg-transparent px-5 py-[10px] text-dark-6 outline-hidden transition focus:border-primary active:border-primary disabled:cursor-default disabled:border-gray-2 disabled:bg-gray-2 dark:border-dark-3"
               />
             </div>
           </div>
@@ -31,7 +31,7 @@ const FormElements = () => {
               <input
                 type="text"
                 placeholder="Active Input"
-                className="w-full rounded-md border border-primary bg-transparent px-5 py-[10px] text-dark-5 outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:border-gray-2 disabled:bg-gray-2"
+                className="w-full rounded-md border border-primary bg-transparent px-5 py-[10px] text-dark-5 outline-hidden transition focus:border-primary active:border-primary disabled:cursor-default disabled:border-gray-2 disabled:bg-gray-2"
               />
             </div>
           </div>
@@ -47,7 +47,7 @@ const FormElements = () => {
                 type="text"
                 placeholder="Disabled Input"
                 disabled
-                className="w-full rounded-md border border-stroke px-5 py-[10px] text-dark-6 outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:border-gray-2 disabled:bg-gray-2 dark:border-dark-3"
+                className="w-full rounded-md border border-stroke px-5 py-[10px] text-dark-6 outline-hidden transition focus:border-primary active:border-primary disabled:cursor-default disabled:border-gray-2 disabled:bg-gray-2 dark:border-dark-3"
               />
             </div>
           </div>
@@ -62,7 +62,7 @@ const FormElements = () => {
               <textarea
                 rows="5"
                 placeholder="Default textarea"
-                className="w-full rounded-md border border-stroke bg-transparent p-5 text-dark-6 outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2 dark:border-dark-3"
+                className="w-full rounded-md border border-stroke bg-transparent p-5 text-dark-6 outline-hidden transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2 dark:border-dark-3"
               ></textarea>
             </div>
           </div>
@@ -77,7 +77,7 @@ const FormElements = () => {
               <textarea
                 rows="5"
                 placeholder="Active textarea"
-                className="w-full rounded-md border border-primary bg-transparent p-5 text-dark-6 outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2"
+                className="w-full rounded-md border border-primary bg-transparent p-5 text-dark-6 outline-hidden transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2"
               ></textarea>
             </div>
           </div>
@@ -93,7 +93,7 @@ const FormElements = () => {
                 rows="5"
                 placeholder="Disabled textarea"
                 disabled
-                className="w-full rounded-md border border-stroke p-5 text-dark-6 outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2 dark:border-dark-3"
+                className="w-full rounded-md border border-stroke p-5 text-dark-6 outline-hidden transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2 dark:border-dark-3"
               ></textarea>
             </div>
           </div>
@@ -107,7 +107,7 @@ const FormElements = () => {
               </label>
               <input
                 type="file"
-                className="w-full cursor-pointer rounded-md border border-stroke text-dark-6 outline-none transition file:mr-5 file:border-collapse file:cursor-pointer file:border-0 file:border-r file:border-solid file:border-stroke file:bg-gray-2 file:px-5 file:py-3 file:text-body-color file:hover:bg-primary file:hover:bg-opacity-10 focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2 dark:border-dark-3 dark:file:border-dark-3 dark:file:bg-dark-2 dark:file:text-dark-6"
+                className="w-full cursor-pointer rounded-md border border-stroke text-dark-6 outline-hidden transition file:mr-5 file:border-collapse file:cursor-pointer file:border-0 file:border-r file:border-solid file:border-stroke file:bg-gray-2 file:px-5 file:py-3 file:text-body-color file:hover:bg-primary/10 focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2 dark:border-dark-3 dark:file:border-dark-3 dark:file:bg-dark-2 dark:file:text-dark-6"
               />
             </div>
           </div>
@@ -120,7 +120,7 @@ const FormElements = () => {
                 Default Select
               </label>
               <div className="relative z-20">
-                <select className="relative z-20 w-full appearance-none rounded-lg border border-stroke bg-transparent px-5 py-[10px] text-dark-6 outline-none transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2 dark:border-dark-3">
+                <select className="relative z-20 w-full appearance-none rounded-lg border border-stroke bg-transparent px-5 py-[10px] text-dark-6 outline-hidden transition focus:border-primary active:border-primary disabled:cursor-default disabled:bg-gray-2 dark:border-dark-3">
                   <option value="" className="dark:bg-dark-2">
                     Option
                   </option>
