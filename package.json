@@ -1,7 +1,7 @@
 {
   "name": "tailgrids-react",
   "description": "Tailwind CSS React Components based on TailGrids Core, comes with all essential UI components and elements you need to kickstart Tailwind + React web projects.",
-  "version": "2.2.3",
+  "version": "2.3.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
