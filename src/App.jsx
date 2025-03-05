@@ -1,9 +1,9 @@
-import Switcher2 from "./components/Switcher/Switcher2";
+import Service from "./components/Service";
 
 function App() {
   return (
     <>
-      <Switcher2 />
+      <Service />
     </>
   );
 }

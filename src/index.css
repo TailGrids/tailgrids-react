@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 
-@plugin '../plugin';
+@plugin 'tailgrids/plugin';
 
 @theme {
   --color-success: #34d399;
